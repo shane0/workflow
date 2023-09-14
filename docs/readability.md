@@ -9,6 +9,13 @@
 - avoid jargon
 - when jargon is unavoidable I use mkdocs abbreviations
 
+## jargon
+
+- mkdocs has a site wide glossary
+- example: hover the mouse over: DUKKHA
+- to use it just add your jargon in ALLCAPS
+- add the jargon to: `includes/abbreviations.md`
+
 ## lexi
 
 - example: <https://github.com/shane0/workflow/pull/3>
