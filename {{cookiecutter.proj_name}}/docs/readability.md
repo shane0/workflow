@@ -11,6 +11,7 @@
 
 ## lexi
 
+- example: <https://github.com/shane0/workflow/pull/3>
 - add this permission in your reposettings for the lexi action to work
 - repo > settings > actions > general > change `Workflow permissions` to read/write
 - add this file `.github/workflows/readability.yml`
