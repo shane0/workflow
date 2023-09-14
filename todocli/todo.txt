@@ -1,1 +1,2 @@
-(A) add aliases make public add screencast to readme and blog this
+(A) use this often and keep it updated
+(A) setup gh pages
