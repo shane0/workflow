@@ -1,6 +1,10 @@
+---
+tags:
+  - cookiecutter 
+---
 # deploy
 
-- deploy the todo cookiecutter template
+- deploy this cookiecutter 
 
 ```sh
 # first time

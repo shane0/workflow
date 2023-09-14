@@ -1,7 +1,8 @@
 # click
 
 - [click](https://click.palletsprojects.com/en/8.1.x/)
-- add your own plugins, use this example: `plugings/bujo.py`
+- add your own plugins
+- use this example: `plugings/bujo.py`
 
 ```sh
 Usage: cli.py bujo [OPTIONS] COMMAND [ARGS]...

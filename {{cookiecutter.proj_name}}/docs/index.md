@@ -1,10 +1,11 @@
 
-!!! info "workflow"
+!!! info
 
-        - this is a minimal [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for [todocli](https://github.com/francoischalifour/todo-cli) that works using relative alias shortcuts + mkdocs integration
-        - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
-        - [click](https://click.palletsprojects.com/en/8.1.x/)
-        - [todocli](https://github.com/todotxt/todo.txt-cli)
-        - [mkdocs](https://squidfunk.github.io/mkdocs-material/)
+        - a no nonsense & powerful workflow
+        - project templates: [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+        - task tracking: [todocli](https://github.com/francoischalifour/todo-cli)
+        - modular command line automation: [click](https://click.palletsprojects.com/en/8.1.x/)
+        - powerful documentaiton: [mkdocs](https://squidfunk.github.io/mkdocs-material/)
+        - measurable readability: [lexi](https://github.com/Rebilly/lexi)
 
 [TAGS]
