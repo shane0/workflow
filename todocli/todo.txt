@@ -1,0 +1,1 @@
+(A) add aliases make public add screencast to readme and blog this
