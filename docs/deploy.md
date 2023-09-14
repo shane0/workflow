@@ -4,7 +4,7 @@
 
 ```sh
 # first time
-cookiecutter gl:gitlab.com/shane0/cookiecutter-todocli/
+cookiecutter  https://shane0.github.io/workflow/  
 # after using via remote it can then be used locally
-cookiecutter cookiecutter-todocli
+cookiecutter workflow 
 ```

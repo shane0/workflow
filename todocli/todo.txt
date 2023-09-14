@@ -1,2 +1,2 @@
 (A) use this often and keep it updated
-(A) setup gh pages
+add lexi

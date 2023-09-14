@@ -106,7 +106,7 @@ YEARFILE = BUJO_FOLDER + "/" + YEAR + ".md"
 
 @cli.command()
 def year():
-    """week - cps state rollback test"""
+    """week"""
     click.echo(YEARFILE)
     click.edit(filename=YEARFILE, editor="code")
     # click.edit(filename=YEARFILE)
@@ -114,14 +114,14 @@ def year():
 
 @cli.command()
 def week():
-    """week - cps state rollback test"""
+    """week"""
     click.echo(WEEKFILE)
     click.edit(filename=WEEKFILE, editor="code")
 
 
 @cli.command()
 def day():
-    """week - cps state rollback test"""
+    """week"""
     click.echo(DAYFILE)
     click.edit(filename=DAYFILE, editor="code")
 

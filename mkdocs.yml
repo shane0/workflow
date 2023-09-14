@@ -1,4 +1,4 @@
-site_name: shane0 cookiecutter 
+site_name: shane0 workflow 
 dev_addr: "127.0.0.1:3000"
 repo_url: https://shane0.github.io/workflow/ 
 edit_uri: edit/main/docs/ 

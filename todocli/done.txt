@@ -1,2 +1,3 @@
 x 2022-06-07 add bujo
 x 2023-09-13 copy from gitlab to github
+x 2023-09-13 setup gh pages
