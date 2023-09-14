@@ -5,11 +5,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href=".." rel="prev"/>
-<link href="../click/" rel="next"/>
+<link href="../alias/" rel="prev"/>
+<link href="../deploy/" rel="next"/>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.0.6" name="generator"/>
-<title>alias shortcuts - shane0 workflow</title>
+<title>click - shane0 workflow</title>
 <link href="../assets/stylesheets/main.558e4712.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -34,7 +34,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#alias-shortcuts">
+<a class="md-skip" href="#click">
           Skip to content
         </a>
 </div>
@@ -60,7 +60,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              alias shortcuts
+              click
             
           </span>
 </div>
@@ -147,14 +147,14 @@
         Home
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../alias/">
         alias shortcuts
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../click/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         click
       </a>
 </li>
@@ -218,35 +218,42 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<nav class="md-tags">
-<a class="md-tag" href="../#alias">alias</a>
-</nav>
-<a class="md-content__button md-icon" href="https://shane0.github.io/workflow/edit/main/docs/alias.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://shane0.github.io/workflow/edit/main/docs/click.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
 </a>
-<a class="md-content__button md-icon" href="https://shane0.github.io/workflow/raw/main/docs/alias.md" title="View source of this page">
+<a class="md-content__button md-icon" href="https://shane0.github.io/workflow/raw/main/docs/click.md" title="View source of this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"></path></svg>
 </a>
-<h1 id="alias-shortcuts">alias shortcuts<a class="headerlink" href="#alias-shortcuts" title="Permanent link">¶</a></h1>
+<h1 id="click">click<a class="headerlink" href="#click" title="Permanent link">¶</a></h1>
 <ul>
-<li>add these to your <code>.bash_aliases</code> file</li>
-<li>these work relative to any <project></project> folder</li>
-<li>tall &amp; tpri(x) will return all or specific priorities that include subfolder projects</li>
+<li><a href="https://click.palletsprojects.com/en/8.1.x/">click</a></li>
+<li>add your own plugins, use this example: <code>plugings/bujo.py</code></li>
 </ul>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1"># bullet journaling aka bujo </span>
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="c1">#set -o vi</span>
-<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">ea</span><span class="o">=</span><span class="s1">'vim ~/.bash_aliases'</span>
-<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">sa</span><span class="o">=</span><span class="s1">'source ~/.bashrc'</span>
-<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">c</span><span class="o">=</span><span class="s1">'clear'</span>
-<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">r</span><span class="o">=</span><span class="s1">'ranger'</span>
-<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">rd</span><span class="o">=</span><span class="s2">"vim ./readme.md"</span>
-<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">cl</span><span class="o">=</span><span class="s2">"vim ./changelog.md"</span>
-<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">jf</span><span class="o">=</span><span class="s1">'mkdir "$(date +%F)" &amp;&amp; cd "$(date +%F)"'</span>
-<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">ft</span><span class="o">=</span><span class="s1">'vim ./future.md'</span>
-<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="nb">alias</span><span class="w"> </span><span class="k">in</span><span class="o">=</span><span class="s1">'vim ./index.md'</span>
-<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">fj</span><span class="o">=</span><span class="s1">'vim ./"$(date +%F)".md'</span>
-<a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">bj</span><span class="o">=</span><span class="s1">'cd ./bujo &amp;&amp; fj || echo "there is no bujo folder"'</span>
-<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">bujo</span><span class="o">=</span><span class="s1">'cd ./bujo &amp;&amp; fj || mkdir bujo &amp;&amp; cd ./bujo &amp;&amp; vim ./"$(date +%F)".md'</span>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>Usage:<span class="w"> </span>cli.py<span class="w"> </span>bujo<span class="w"> </span><span class="o">[</span>OPTIONS<span class="o">]</span><span class="w"> </span>COMMAND<span class="w"> </span><span class="o">[</span>ARGS<span class="o">]</span>...
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">  </span>bullet<span class="w"> </span>journaling<span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>todocli
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>Options:
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">  </span>--help<span class="w">  </span>Show<span class="w"> </span>this<span class="w"> </span>message<span class="w"> </span>and<span class="w"> </span>exit.
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>Commands:
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">  </span>day<span class="w">        </span>week
+<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">  </span>dayfolder<span class="w">  </span>create<span class="w"> </span>subfolder<span class="w"> </span>with<span class="w"> </span>named<span class="w"> </span>todays<span class="w"> </span>date
+<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">  </span>edit<span class="w">       </span>edit<span class="w"> </span>plugin
+<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">  </span>folder<span class="w">     </span>create<span class="w"> </span>bujo<span class="w"> </span>folder
+<a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">  </span>future<span class="w">     </span>bujo<span class="w"> </span>index<span class="w"> </span>file
+<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">  </span>index<span class="w">      </span>bujo<span class="w"> </span>index<span class="w"> </span>file
+<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">  </span>m<span class="w">          </span>mkdocs<span class="w"> </span>serve
+<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">  </span>month<span class="w">      </span>month<span class="w"> </span>file
+<a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="w">  </span><span class="nb">read</span><span class="w">       </span><span class="nb">read</span><span class="w"> </span>a<span class="w"> </span>bujo/<span class="w"> </span>file
+<a href="#__codelineno-0-18" id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="w">  </span>remote<span class="w">     </span><span class="nb">jobs</span><span class="w"> </span>on<span class="w"> </span>remotive
+<a href="#__codelineno-0-19" id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="w">  </span>s<span class="w">          </span>start<span class="w"> </span>dev<span class="w"> </span>server
+<a href="#__codelineno-0-20" id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="w">  </span>snip<span class="w">       </span>open<span class="w"> </span>snippet<span class="w"> </span>maker
+<a href="#__codelineno-0-21" id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="w">  </span>todo<span class="w">       </span>generic<span class="w"> </span>todo
+<a href="#__codelineno-0-22" id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="w">  </span>week<span class="w">       </span>week
+<a href="#__codelineno-0-23" id="__codelineno-0-23" name="__codelineno-0-23"></a><span class="w">  </span>ww<span class="w">         </span>weather
+<a href="#__codelineno-0-24" id="__codelineno-0-24" name="__codelineno-0-24"></a><span class="w">  </span>year<span class="w">       </span>week
+<a href="#__codelineno-0-25" id="__codelineno-0-25" name="__codelineno-0-25"></a><span class="w">  </span>zl<span class="w">         </span>markdownlint
 </code></pre></div>
 <hr/>
 <div class="md-source-file">
@@ -265,7 +272,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Home" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
+<a aria-label="Previous: alias shortcuts" class="md-footer__link md-footer__link--prev" href="../alias/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -274,17 +281,17 @@
 <span class="md-footer__direction">
                   Previous
                 </span>
-                Home
+                alias shortcuts
               </div>
 </div>
 </a>
-<a aria-label="Next: click" class="md-footer__link md-footer__link--next" href="../click/" rel="next">
+<a aria-label="Next: deploy" class="md-footer__link md-footer__link--next" href="../deploy/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                   Next
                 </span>
-                click
+                deploy
               </div>
 </div>
 <div class="md-footer__button md-icon">
