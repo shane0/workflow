@@ -1,6 +1,6 @@
-site_name: shane0 workflow 
+site_name: workflow 
 dev_addr: "127.0.0.1:3000"
-repo_url: https://shane0.github.io/workflow/ 
+repo_url: https://github.com/shane0/workflow 
 edit_uri: edit/main/docs/ 
 
 theme:
