@@ -2,7 +2,7 @@
 tags:
   - mkdocs
 ---
-# mkdocs integration
+# todo cli integration
 
 - this uses mkdocs snippets to integrate todocli
 
