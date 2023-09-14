@@ -11,3 +11,5 @@ tags:
 ```sh
 -8<- "bash_aliases"
 ```
+
+- <https://www.shellcheck.net/>
