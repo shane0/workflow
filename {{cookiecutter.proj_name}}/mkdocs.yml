@@ -1,7 +1,8 @@
 site_name: shane0 cookiecutter 
 dev_addr: "127.0.0.1:3000"
-# repo_url: https://gitlab.com/shane0/cookiecutter-todocli 
+# repo_url: https://shane0.github.io/workflow/ 
 # edit_uri: /-/blob/master/
+# edit_uri: edit/main/docs/ 
 
 theme:
   name: material
