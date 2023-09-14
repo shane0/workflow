@@ -1,2 +1,3 @@
 (A) use this often and keep it updated
-add lexi
+(A) add lexi
+(A) setup discussion
