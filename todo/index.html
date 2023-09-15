@@ -173,6 +173,11 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../comments/">
+        comments
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../cookiecutter/">
         cookiecutter
       </a>
@@ -180,6 +185,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../deploy/">
         deploy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../failover/">
+        failover
       </a>
 </li>
 <li class="md-nav__item">
@@ -195,6 +205,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../screencast/">
         screencast
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../scripts/">
+        scripts
       </a>
 </li>
 <li class="md-nav__item">
@@ -218,6 +233,11 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#layout">
+    layout
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#todotxt">
     todo.txt
   </a>
@@ -232,6 +252,11 @@
     alias
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usage">
+    usage
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -241,13 +266,13 @@
       </a>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" id="__nav_15" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_15" tabindex="0">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_18" id="__nav_18" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_18" tabindex="0">
           Bujo
           <span class="md-nav__icon md-icon"></span>
 </label>
 <nav aria-label="Bujo" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_15">
+<label class="md-nav__title" for="__nav_18">
 <span class="md-nav__icon md-icon"></span>
           Bujo
         </label>
@@ -275,6 +300,11 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#layout">
+    layout
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#todotxt">
     todo.txt
   </a>
@@ -287,6 +317,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="#alias">
     alias
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usage">
+    usage
   </a>
 </li>
 </ul>
@@ -308,26 +343,82 @@
 </a>
 <h1 id="todo-cli-integration">todo cli integration<a class="headerlink" href="#todo-cli-integration" title="Permanent link">¶</a></h1>
 <ul>
-<li>this uses mkdocs snippets to integrate todocli</li>
+<li>altered workflow for <a href="https://github.com/todotxt/todo.txt-cli">todo cli repo</a></li>
+<li>runs from any folder</li>
+<li>tasks are rendered on mkdocs</li>
 </ul>
+<h2 id="layout">layout<a class="headerlink" href="#layout" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>todocli/
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>├──<span class="w"> </span><span class="k">done</span>.txt
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>├──<span class="w"> </span>report.txt
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>├──<span class="w"> </span>todo.cfg
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>├──<span class="w"> </span>todo.sh
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>├──<span class="w"> </span>todo.txt
+</code></pre></div>
 <h2 id="todotxt">todo.txt<a class="headerlink" href="#todotxt" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>(A) use this often and keep it updated
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>(A) setup discussion
-<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>(A) add cors api request example
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>(A) use this often and keep it updated
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>(A) setup discussion
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>(A) add cors api request example
+<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>(A) test stuff.sh and tune up
+<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a>(A) fix the cookiecutter hook on macos
+<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a>(A) add vscode snippets
+<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a>(A) add cookiecutter variables for mkdocs
 </code></pre></div>
 <h2 id="donetxt">done.txt<a class="headerlink" href="#donetxt" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>x 2022-06-07 add bujo
-<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>x 2023-09-13 copy from gitlab to github
-<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>x 2023-09-13 setup gh pages
-<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>x 2023-09-14 add lexi for cli tests
-<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a>x 2023-09-14 add lexi
-<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a>x 2023-09-14 lexi action for cli demo
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>x 2022-06-07 add bujo
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>x 2023-09-13 copy from gitlab to github
+<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>x 2023-09-13 setup gh pages
+<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>x 2023-09-14 add lexi for cli tests
+<a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a>x 2023-09-14 add lexi
+<a href="#__codelineno-2-6" id="__codelineno-2-6" name="__codelineno-2-6"></a>x 2023-09-14 lexi action for cli demo
 </code></pre></div>
-<ul>
-<li><a href="https://github.com/todotxt/todo.txt-cli">todo cli repo</a></li>
-</ul>
 <h2 id="alias">alias<a class="headerlink" href="#alias" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1"># todocli app</span>
+<a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">t</span><span class="o">=</span><span class="s1">'clear &amp;&amp; ./todocli/todo.sh'</span>
+<a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">d</span><span class="o">=</span><span class="s1">'clear &amp;&amp; t listpri a'</span>
+<a href="#__codelineno-3-4" id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">snooze</span><span class="o">=</span><span class="s1">'clear &amp;&amp; t listpri'</span>
+<a href="#__codelineno-3-5" id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="nb">alias</span><span class="w"> </span><span class="k">done</span><span class="o">=</span><span class="s1">'clear &amp;&amp; cat ./todocli/done.txt'</span>
+<a href="#__codelineno-3-6" id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">tedit</span><span class="o">=</span><span class="s1">'vim ./todocli/todo.txt'</span>
+<a href="#__codelineno-3-7" id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">tall</span><span class="o">=</span><span class="s1">'clear &amp;&amp; find . -name "todo.txt" | xargs grep "+"'</span>
+<a href="#__codelineno-3-8" id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">tpri</span><span class="o">=</span><span class="s1">'clear &amp;&amp; find . -name "todo.txt" | xargs grep "(A"'</span>
+<a href="#__codelineno-3-9" id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">tprib</span><span class="o">=</span><span class="s1">'clear &amp;&amp; find . -name "todo.txt" | xargs grep "(B"'</span>
+<a href="#__codelineno-3-10" id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">tpric</span><span class="o">=</span><span class="s1">'clear &amp;&amp; find . -name "todo.txt" | xargs grep "(C"'</span>
+<a href="#__codelineno-3-11" id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">thelp</span><span class="o">=</span><span class="s1">'clear &amp;&amp; ./todocli/todo.sh shorthelp'</span>
+</code></pre></div>
+<h2 id="usage">usage<a class="headerlink" href="#usage" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>  Usage: todo.sh [-fhpantvV] [-d todo_config] action [task_number] [task_description]
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>
+<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a>  Actions:
+<a href="#__codelineno-4-4" id="__codelineno-4-4" name="__codelineno-4-4"></a>    add|a "THING I NEED TO DO +project @context"
+<a href="#__codelineno-4-5" id="__codelineno-4-5" name="__codelineno-4-5"></a>    addm "THINGS I NEED TO DO
+<a href="#__codelineno-4-6" id="__codelineno-4-6" name="__codelineno-4-6"></a>          MORE THINGS I NEED TO DO"
+<a href="#__codelineno-4-7" id="__codelineno-4-7" name="__codelineno-4-7"></a>    addto DEST "TEXT TO ADD"
+<a href="#__codelineno-4-8" id="__codelineno-4-8" name="__codelineno-4-8"></a>    append|app ITEM# "TEXT TO APPEND"
+<a href="#__codelineno-4-9" id="__codelineno-4-9" name="__codelineno-4-9"></a>    archive
+<a href="#__codelineno-4-10" id="__codelineno-4-10" name="__codelineno-4-10"></a>    command [ACTIONS]
+<a href="#__codelineno-4-11" id="__codelineno-4-11" name="__codelineno-4-11"></a>    deduplicate
+<a href="#__codelineno-4-12" id="__codelineno-4-12" name="__codelineno-4-12"></a>    del|rm ITEM# [TERM]
+<a href="#__codelineno-4-13" id="__codelineno-4-13" name="__codelineno-4-13"></a>    depri|dp ITEM#[, ITEM#, ITEM#, ...]
+<a href="#__codelineno-4-14" id="__codelineno-4-14" name="__codelineno-4-14"></a>    do ITEM#[, ITEM#, ITEM#, ...]
+<a href="#__codelineno-4-15" id="__codelineno-4-15" name="__codelineno-4-15"></a>    help [ACTION...]
+<a href="#__codelineno-4-16" id="__codelineno-4-16" name="__codelineno-4-16"></a>    list|ls [TERM...]
+<a href="#__codelineno-4-17" id="__codelineno-4-17" name="__codelineno-4-17"></a>    listall|lsa [TERM...]
+<a href="#__codelineno-4-18" id="__codelineno-4-18" name="__codelineno-4-18"></a>    listaddons
+<a href="#__codelineno-4-19" id="__codelineno-4-19" name="__codelineno-4-19"></a>    listcon|lsc [TERM...]
+<a href="#__codelineno-4-20" id="__codelineno-4-20" name="__codelineno-4-20"></a>    listfile|lf [SRC [TERM...]]
+<a href="#__codelineno-4-21" id="__codelineno-4-21" name="__codelineno-4-21"></a>    listpri|lsp [PRIORITIES] [TERM...]
+<a href="#__codelineno-4-22" id="__codelineno-4-22" name="__codelineno-4-22"></a>    listproj|lsprj [TERM...]
+<a href="#__codelineno-4-23" id="__codelineno-4-23" name="__codelineno-4-23"></a>    move|mv ITEM# DEST [SRC]
+<a href="#__codelineno-4-24" id="__codelineno-4-24" name="__codelineno-4-24"></a>    prepend|prep ITEM# "TEXT TO PREPEND"
+<a href="#__codelineno-4-25" id="__codelineno-4-25" name="__codelineno-4-25"></a>    pri|p ITEM# PRIORITY
+<a href="#__codelineno-4-26" id="__codelineno-4-26" name="__codelineno-4-26"></a>    replace ITEM# "UPDATED TODO"
+<a href="#__codelineno-4-27" id="__codelineno-4-27" name="__codelineno-4-27"></a>    report
+<a href="#__codelineno-4-28" id="__codelineno-4-28" name="__codelineno-4-28"></a>    shorthelp
+<a href="#__codelineno-4-29" id="__codelineno-4-29" name="__codelineno-4-29"></a>
+<a href="#__codelineno-4-30" id="__codelineno-4-30" name="__codelineno-4-30"></a>  Actions can be added and overridden using scripts in the actions
+<a href="#__codelineno-4-31" id="__codelineno-4-31" name="__codelineno-4-31"></a>  directory.
+<a href="#__codelineno-4-32" id="__codelineno-4-32" name="__codelineno-4-32"></a>
+<a href="#__codelineno-4-33" id="__codelineno-4-33" name="__codelineno-4-33"></a>  See "help" for more details.
 </code></pre></div>
 <hr/>
 <div class="md-source-file">

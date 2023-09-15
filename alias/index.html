@@ -172,6 +172,11 @@
     alias workflow
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#julian-date">
+    julian date
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -191,6 +196,11 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../comments/">
+        comments
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../cookiecutter/">
         cookiecutter
       </a>
@@ -198,6 +208,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../deploy/">
         deploy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../failover/">
+        failover
       </a>
 </li>
 <li class="md-nav__item">
@@ -216,6 +231,11 @@
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../scripts/">
+        scripts
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../style_guide/">
         style guide
       </a>
@@ -231,13 +251,13 @@
       </a>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" id="__nav_15" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_15" tabindex="0">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_18" id="__nav_18" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_18" tabindex="0">
           Bujo
           <span class="md-nav__icon md-icon"></span>
 </label>
 <nav aria-label="Bujo" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_15">
+<label class="md-nav__title" for="__nav_18">
 <span class="md-nav__icon md-icon"></span>
           Bujo
         </label>
@@ -269,6 +289,11 @@
     alias workflow
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#julian-date">
+    julian date
+  </a>
+</li>
 </ul>
 </nav>
 </div>
@@ -297,13 +322,22 @@
 <li>ea: edit alias file</li>
 <li>sa: updates aliases (sa = source alias)</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">#set -o vi</span>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1"># manage aliases</span>
 <a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">ea</span><span class="o">=</span><span class="s1">'vim ~/.bash_aliases'</span>
 <a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">sa</span><span class="o">=</span><span class="s1">'source ~/.bashrc'</span>
 </code></pre></div>
 <ul>
 <li>when editing aliases use: <a href="https://www.shellcheck.net/">https://www.shellcheck.net/</a></li>
 </ul>
+<h2 id="julian-date">julian date<a class="headerlink" href="#julian-date" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">day</span><span class="o">=</span><span class="s1">'date +%D &amp;&amp; date +%j &amp;&amp; date +%A &amp;&amp; date +%d &amp;&amp; date +%u'</span>
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">fday</span><span class="o">=</span><span class="s1">'mkdir "$(date +%j)" &amp;&amp; cd "$(date +%j)"'</span>
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">mday</span><span class="o">=</span><span class="s1">'vim ./"$(date +%j)".md'</span>
+<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">fj</span><span class="o">=</span><span class="s1">'vim ./"$(date +%F)".md'</span>
+<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">week</span><span class="o">=</span><span class="s1">'date +%V'</span>
+<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">month</span><span class="o">=</span><span class="s1">'date +%B &amp;&amp; date +%m'</span>
+<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="nb">alias</span><span class="w"> </span><span class="nv">year</span><span class="o">=</span><span class="s1">'date +%Y'</span>
+</code></pre></div>
 <hr/>
 <div class="md-source-file">
 <small>
