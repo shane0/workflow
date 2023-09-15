@@ -1,4 +1,7 @@
 (A) use this often and keep it updated
 (A) setup discussion
-x 2023-09-14 lexi action for cli demo
 (A) add cors api request example
+(A) test stuff.sh and tune up
+(A) fix the cookiecutter hook on macos
+(A) add vscode snippets
+add cookiecutter variables for mkdocs

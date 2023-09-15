@@ -2,11 +2,7 @@
 
 [deploy this template](deploy.md){ .md-button } [update this template](update.md){ .md-button }
 
-- layout
-
-```sh
-tree -d -L 1
-```
+## layout
 
 ```text
 ├── docs <-- mkdocs
@@ -24,6 +20,12 @@ markdownlint in editor, command line or remote pipelines
 github integrations for repos, actions and pages
 local or remote tests (includes examples in cucumber, python & js)
 more aliases and shell scripts
+```
+
+- update layout with:
+
+```sh
+tree -d -L 1
 ```
 
 [TAGS]

@@ -31,3 +31,10 @@ cli bujo m
 
 - mouse over this: PRAJNA
 - add more here: `includes/abbreviations.md`
+
+## citation
+
+```markdown
+- this[^1]
+[^1]: requires software installation
+```

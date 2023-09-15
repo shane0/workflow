@@ -73,6 +73,10 @@ plugins:
   - mike:
 
 extra:
+  comments:
+    giscus:
+      repo: <your-repo-name>
+      repo_id: <your-repo-id>
   version:
     provider: mike
     default: 2023

@@ -15,7 +15,19 @@ tags:
 - sa: updates aliases (sa = source alias)
 
 ```sh
--8<- "bash_aliases:0:4"
+-8<- "bash_aliases:4:7"
 ```
 
 - when editing aliases use: <https://www.shellcheck.net/>
+
+## julian date
+
+```sh
+alias day='date +%D && date +%j && date +%A && date +%d && date +%u'
+alias fday='mkdir "$(date +%j)" && cd "$(date +%j)"'
+alias mday='vim ./"$(date +%j)".md'
+alias fj='vim ./"$(date +%F)".md'
+alias week='date +%V'
+alias month='date +%B && date +%m'
+alias year='date +%Y'
+```

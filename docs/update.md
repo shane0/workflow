@@ -1,6 +1,7 @@
 ---
 tags:
   - cookiecutter
+  - update 
 ---
 # update the template
 
