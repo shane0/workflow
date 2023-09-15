@@ -24,5 +24,6 @@ jobs:
 
     - name: Build
       run: |
+        npm i tsx -g
         yarn run:local:report ./test-data/old ./test-data/new
         echo "boop!"
