@@ -1,15 +1,21 @@
 ---
 tags:
   - alias 
+  - click 
 ---
 # alias shortcuts
 
-- add these to your `.bash_aliases` file
-- these work relative to any <project/> folder
-- tall & tpri(x) will return all or specific priorities that include subfolder projects
+- apps in this template have aliases documented on their mkdoc page
+- click commands I add typically call an alias so they click is optional 
+
+## alias workflow
+
+- this seems obvious I'm surprised it's not included in .bashrc from day 1
+- ea: edit alias file
+- sa: updates aliases (sa = source alias)
 
 ```sh
--8<- "bash_aliases"
+-8<- "bash_aliases:0:4"
 ```
 
-- <https://www.shellcheck.net/>
+- when editing aliases use: <https://www.shellcheck.net/>

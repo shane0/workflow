@@ -1,0 +1,46 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "workflow",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "yarn tsc && ncc build --source-map --license licenses.txt",
+    "test": "cucumber-js",
+    "run:local:report": "tsx ./src/cli/report.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shane0/workflow.git"
+  },
+  "keywords": [
+    "workflow",
+    "click",
+    "todo",
+    "mkdocs"
+  ],
+  "author": "shane0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shane0/workflow/issues"
+  },
+  "homepage": "https://github.com/shane0/workflow#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/github": "^5.1.1",
+    "commander": "^11.0.0",
+    "glob": "^7.1.7",
+    "remark": "^14.0.3",
+    "remark-gfm": "^3.0.1",
+    "strip-markdown": "^5.0.1",
+    "text-readability": "^1.0.5",
+    "unist-util-visit": "2.0.3"
+  }
+}

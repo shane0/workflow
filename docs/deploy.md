@@ -4,11 +4,19 @@ tags:
 ---
 # deploy
 
-- deploy this cookiecutter 
+## the first time
+
+- install [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+- deploy this cookiecutter the first time[^1]
 
 ```sh
-# first time
 cookiecutter  https://shane0.github.io/workflow/  
-# after using via remote it can then be used locally
+```
+
+## after that
+
+```sh
 cookiecutter workflow 
 ```
+
+[^1]: note: by default cookiecutter  saves a copy of this template in  `~/.cookiecutters/workflow/` the first time you use

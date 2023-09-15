@@ -1,6 +1,7 @@
 ---
 tags:
   - mkdocs
+  - todo 
 ---
 # todo cli integration
 
@@ -19,3 +20,11 @@ tags:
 ```
 
 - [todo cli repo](https://github.com/todotxt/todo.txt-cli)
+
+## alias
+
+```sh
+
+```
+
+
