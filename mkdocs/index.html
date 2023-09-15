@@ -159,7 +159,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../behave/">
-        behave
+        behave (cucumber tests)
       </a>
 </li>
 <li class="md-nav__item">
@@ -184,9 +184,31 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          mkdocs
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
         mkdocs
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#includes">
+    includes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#site-wide-glossary">
+    site wide glossary
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../readability/">
@@ -242,6 +264,22 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#includes">
+    includes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#site-wide-glossary">
+    site wide glossary
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -270,6 +308,18 @@
 </ul>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>cli bujo m
 </code></pre></div>
+<h2 id="includes">includes<a class="headerlink" href="#includes" title="Permanent link">¶</a></h2>
+<ul>
+<li>embed docs</li>
+<li>splice in by line numbers <code>example.md:2:5</code></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>-8&lt;-<span class="w"> </span><span class="s2">"includes/example.md&gt;</span>
+</code></pre></div>
+<h2 id="site-wide-glossary">site wide glossary<a class="headerlink" href="#site-wide-glossary" title="Permanent link">¶</a></h2>
+<ul>
+<li>mouse over this: <abbr title="Prajna, which is also known as wisdom or insight, is a fundamental concept in Buddhism that refers to a deep understanding of the nature of reality and the causes of suffering. According to Buddhist teachings, prajna is one of the two wings of enlightenment, along with compassion, and is essential for attaining liberation from the cycle of rebirth and suffering. Prajna is often contrasted with ordinary knowledge, which is based on conceptual thinking and discrimination, and is described as a direct and intuitive understanding that arises from the practice of meditation and other spiritual disciplines. By cultivating prajna, Buddhists aim to develop a more profound and transformative understanding of the nature of existence and to overcome the ignorance and delusion that give rise to suffering.">PRAJNA</abbr></li>
+<li>add more here: <code>includes/abbreviations.md</code></li>
+</ul>
 <hr/>
 <div class="md-source-file">
 <small>
