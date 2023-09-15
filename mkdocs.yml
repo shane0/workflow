@@ -75,8 +75,8 @@ plugins:
 extra:
   comments:
     giscus:
-      repo: <your-repo-name>
-      repo_id: <your-repo-id>
+      repo: shane0/workflow 
+      repo_id: R_kgDOKTTs8A
   version:
     provider: mike
     default: 2023
