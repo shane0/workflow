@@ -1,9 +1,18 @@
 ---
 tags:
   - test 
+  - cucumber 
   - python 
 ---
-# behave
+# behave (cucumber tests)
+
+## gherkin file
+
+- `features/file.feature`
+
+```gherkin
+-8<- "features/file.feature"
+```
 
 ## locally
 
