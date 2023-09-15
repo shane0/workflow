@@ -4,3 +4,4 @@ x 2023-09-13 setup gh pages
 x 2023-09-14 add lexi for cli tests
 x 2023-09-14 add lexi
 x 2023-09-14 lexi action for cli demo
+x 2023-09-14 setup discussion
