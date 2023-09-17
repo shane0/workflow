@@ -75,26 +75,26 @@ plugins:
   #     enable_creation_date: true
   - mike:
 
-extra:
-  version:
-    provider: mike
-    default: 2023
-  social:
-    - icon: "fontawesome/brands/wordpress-simple"
-      link: "https://shanenull.com/"
-    - icon: "fontawesome/brands/python"
-      link: "https://shane0.pythonanywhere.com/"
-    - icon: "fontawesome/brands/youtube"
-      link: "http://www.youtube.com/c/ShaneNull"
-    - icon: "fontawesome/brands/instagram"
-      link: "https://www.instagram.com/nullshane/"
-    - icon: "fontawesome/brands/bandcamp"
-      link: "https://earmassagetherapist.bandcamp.com/releases"
-    - icon: "fontawesome/brands/github"
-      link: "https://github.com/shane0"
-    - icon: "fontawesome/brands/gitlab"
-      link: "https://gitlab.com/shane0"
-    - icon: "fontawesome/brands/twitter"
-      link: "https://twitter.com/shane_null"
-    - icon: "fontawesome/brands/linkedin"
-      link: "https://www.linkedin.com/in/shanenull"
+# extra:
+#   version:
+#     provider: mike
+#     default: 2023
+#   social:
+#     - icon: "fontawesome/brands/wordpress-simple"
+#       link: "https://shanenull.com/"
+#     - icon: "fontawesome/brands/python"
+#       link: "https://shane0.pythonanywhere.com/"
+#     - icon: "fontawesome/brands/youtube"
+#       link: "http://www.youtube.com/c/ShaneNull"
+#     - icon: "fontawesome/brands/instagram"
+#       link: "https://www.instagram.com/nullshane/"
+#     - icon: "fontawesome/brands/bandcamp"
+#       link: "https://earmassagetherapist.bandcamp.com/releases"
+#     - icon: "fontawesome/brands/github"
+#       link: "https://github.com/shane0"
+#     - icon: "fontawesome/brands/gitlab"
+#       link: "https://gitlab.com/shane0"
+#     - icon: "fontawesome/brands/twitter"
+#       link: "https://twitter.com/shane_null"
+#     - icon: "fontawesome/brands/linkedin"
+#       link: "https://www.linkedin.com/in/shanenull"
