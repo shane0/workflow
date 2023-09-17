@@ -15,7 +15,7 @@ tags:
 - sa: updates aliases (sa = source alias)
 
 ```sh
--8<- "bash_aliases:4:7"
+-8<- "utils/bash_aliases:4:7"
 ```
 
 - when editing aliases use: <https://www.shellcheck.net/>

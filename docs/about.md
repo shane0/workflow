@@ -1,5 +1,36 @@
 # about
 
+- cut through the bs
+- evetually I'll make a screencast of how to use this 
+
+## layout
+
+```text
+├── docs <-- mkdocs
+├── includes <-- snippets & gloassary (mkdocs in the browser)
+├── plugins < command line automations
+└── todocli <-- task management files (works in command line and can be viewed in mkdocs)
+```
+
+??? example
+
+    ```sh
+    tree -d -L 1
+    ```
+
+## options
+
+- these are not installed by default
+
+```text
+more click plugins
+docs readability measurement locally or remote on push and pull requests (lexi)
+markdownlint in editor, command line or remote pipelines
+github integrations for repos, actions and pages
+local or remote tests (includes examples in cucumber, python & js)
+more aliases and shell scripts
+```
+
 !!! info
 
         - a no nonsense workflow centered on the power of simplicity & ease of maintanence

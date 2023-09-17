@@ -35,7 +35,7 @@ todocli/
 ## alias
 
 ```sh
--8<- "bash_aliases:27:38"
+-8<- "utils/bash_aliases:27:38"
 ```
 
 ## usage

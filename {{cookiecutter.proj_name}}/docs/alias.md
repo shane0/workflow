@@ -9,5 +9,5 @@ tags:
 - tall & tpri(x) will return all or specific priorities that include subfolder projects
 
 ```sh
--8<- "bash_aliases"
+-8<- "utils/bash_aliases"
 ```
