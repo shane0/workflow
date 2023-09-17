@@ -1,11 +1,17 @@
 ---
 tags:
   - cookiecutter 
+  - deployments 
 ---
 # deploy
 
 - not all files are included
 - find more options here: <https://github.com/shane0/workflow>  
+
+## recent deployments
+
+- 2023-09-17: [buddhism mkdocs](){ .md-button }
+  - added some docs here for the optional mkdocs github deployment
 
 ## first time
 

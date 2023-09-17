@@ -1,8 +1,10 @@
 site_name: shane0 {{ cookiecutter.proj_name }} 
 dev_addr: "127.0.0.1:3000"
 # repo_url: https://github.com/shane0/workflow
-# edit_uri: /-/blob/master/
+# github
 # edit_uri: edit/main/docs/ 
+# gitlab 
+# edit_uri: /-/blob/master/
 
 theme:
   name: material
