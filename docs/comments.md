@@ -6,6 +6,8 @@
 ## installation
 
 - this is much simpler than in the documentation
+- add the new repo to the list here:
+- <https://github.com/settings/installations/34265629>
 - <https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/>
 - repo: general > settings > features
 - configure the giscus app
