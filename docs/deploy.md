@@ -12,6 +12,7 @@ tags:
 
 - 2023-09-17: [buddhism mkdocs](https://shane0.github.io/buddhism/){ .md-button }
   - added some docs here for the optional mkdocs github deployment
+- 2023-09-19: [cheatsheets and snippets](https://shane0.github.io/cheatsheets/){ .md-button }
 
 ## first time
 
