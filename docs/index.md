@@ -1,9 +1,9 @@
 
 [home](https://shane0.github.io){ .md-button }
-[buddhism](../buddhism/){ .md-button }
+[buddhism](https://shane0.github.io/buddhism/){ .md-button }
 
-[cheatsheets](../cheatsheets/){ .md-button }
-[retro games](../adventure/){ .md-button }
+[cheatsheets](https://shane0.github.io/cheatsheets/){ .md-button }
+[retro games](https://shane0.github.io/adventure/){ .md-button }
 
 ## workflow template
 
