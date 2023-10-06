@@ -5,9 +5,9 @@ tags:
 # cookiecutter
 
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter) is a folder template
+- this repo is a cookiecutter
 - it is so simple it is stupid that everyone has overlooked this
 - I believe this spawned from the django web framework app spawn command
-- this repo is a cookiecutter
 
 ## `cookiecutter.json`
 
@@ -70,4 +70,21 @@ Options:
   --accept-hooks [yes|ask|no]  Accept pre/post hooks
   -l, --list-installed         List currently installed templates.
   -h, --help                   Show this message and exit.
+```
+
+## using a local folder without git
+
+- this repository has a `template/` folder
+- you do not have to learn git or use a git repository to use cookiecutte
+- it contains a bare minimum cookiecutter template
+- this is how you can run cookiecutter locally
+
+```sh
+cookiecutter template/
+# then it prompts you
+proj_name [project name]: example
+variable_a [variable a]: abc
+variable_b [variable b]: def
+release_date [2023-10-05]: 
+version [0.1.0]: 
 ```

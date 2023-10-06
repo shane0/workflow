@@ -1,0 +1,8 @@
+{
+    "proj_name": "project name",
+    "variable_a": "variable a",
+    "variable_b": "variable b",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
