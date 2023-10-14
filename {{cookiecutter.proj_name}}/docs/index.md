@@ -1,4 +1,4 @@
 
-## {{> cookiecutter.proj_name }}
+## {{ cookiecutter.proj_name }}
 
 [TAGS]
