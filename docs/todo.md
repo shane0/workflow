@@ -5,9 +5,10 @@ tags:
 ---
 # todo cli integration
 
-- altered workflow for [todo cli repo](https://github.com/todotxt/todo.txt-cli)
-- runs from any folder
+- my workflow template deployments always include [todo cli](https://github.com/todotxt/todo.txt-cli)
+- except I use aliases so it runs from inside any folder
 - tasks are rendered on mkdocs
+- tasks sometimes become a [project](projects.md)
 
 ## layout
 
@@ -18,6 +19,7 @@ todocli/
 ├── todo.cfg
 ├── todo.sh
 ├── todo.txt
+<projects>/ template or whatever
 ```
 
 ## todo.txt
