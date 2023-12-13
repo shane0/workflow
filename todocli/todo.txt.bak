@@ -4,5 +4,5 @@
 (B) fix the cookiecutter hook on macos
 (B) add vscode snippets
 (A) add cookiecutter variables for mkdocs
-(A) add gh pages
-x 2023-09-17 deploy a new buddhism site
+(A) document using gh pages
+cli c commitizen command lines

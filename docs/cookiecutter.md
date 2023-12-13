@@ -88,3 +88,12 @@ variable_b [variable b]: def
 release_date [2023-10-05]: 
 version [0.1.0]: 
 ```
+
+## empty template
+
+- there is a bare minimum cookiecutter template in `templat/`
+- you can reuse it in your project or deploy it by itself
+
+```sh
+cookiecutter https://github.com/shane0/workflow --directory template/
+```

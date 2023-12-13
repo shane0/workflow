@@ -1,6 +1,11 @@
 # workflow
 
-- later if you return to a project you should be able to read this page and understand where you left off on your project
+- this template includes a few pages that are optional
+- [tasks](todo.md)
+- [project folders](projects.md)
+- [click automations](click.md)
+
+- later if you return to a project you should be able to read this workflow page and pick up where you left off on your project
 - what the purpose of this folder is to begin with
 - what file you were creating or updating
 - where it is at on your computer or the cloud etc.
@@ -15,11 +20,6 @@ apps -- simple command line task management --> todocli
 apps -- tiny command line automation --> aliases
 apps -- larger command line automation --> click
 ```
-
-- this template includes a few pages that are optional
-- [tasks](todo.md)
-- [project folders](projects.md)
-- [click automations](click.md)
 
 ```text
 index.md

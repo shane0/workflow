@@ -5,3 +5,4 @@
 (B) add vscode snippets
 (A) add cookiecutter variables for mkdocs
 (A) document using gh pages
+(A) cli c commitizen command lines
