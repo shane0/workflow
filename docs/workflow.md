@@ -1,5 +1,9 @@
 # workflow
 
+## screencast
+
+## the stuff 
+
 - this template includes a few pages that are optional
 - [tasks](todo.md)
 - [project folders](projects.md)
@@ -15,10 +19,11 @@
 ```mermaid
 graph TD
 workflow --> deployment
-deployment --> apps
-apps -- simple command line task management --> todocli
+workflow --> apps 
 apps -- tiny command line automation --> aliases
-apps -- larger command line automation --> click
+deployment --> sub_projects  --> apps
+apps -- simple command line task management --> todocli
+apps -- larger command line automation --> click_
 ```
 
 ```text

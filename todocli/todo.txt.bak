@@ -5,4 +5,6 @@
 (B) add vscode snippets
 (A) add cookiecutter variables for mkdocs
 (A) document using gh pages
-cli c commitizen command lines
+(A) cli c commitizen command lines
+(B) add the workflow button to the homepage
+screencast homepage workflow projects tasks click cookiecutter

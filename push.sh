@@ -3,7 +3,6 @@
 # ./push.sh commit_message
 
 function addcommitpush () {
-  git pull
   message=(\'"$@"\')
   current=$(git branch | grep "*" | cut -b 3-)
   # read -r -i "$current" -e branch
@@ -11,6 +10,7 @@ function addcommitpush () {
   echo push local branch "$current" to "$remote" y n ?
   read -r yn
   if [ "$yn" = y ]; then
+    git pull
     # echo "$current" "$remote"
     git add -A 
     cz c

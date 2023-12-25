@@ -5,6 +5,11 @@ tags:
 ---
 # click
 
+## screencast
+
+
+## usage
+
 - [click](https://click.palletsprojects.com/en/8.1.x/)
 - add your own plugins
 - use this example: `plugings/bujo.py`
