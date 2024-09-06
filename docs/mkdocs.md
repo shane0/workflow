@@ -38,3 +38,9 @@ cli bujo m
 - this[^1]
 [^1]: requires software installation
 ```
+
+## troubleshooting lightbox
+
+```sh
+pip install mkdocs-glightbox
+```

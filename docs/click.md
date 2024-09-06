@@ -5,6 +5,12 @@ tags:
 ---
 # click
 
+## alias
+
+```sh
+alias cli='python cli.py'
+```
+
 ## screencast
 
 

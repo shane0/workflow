@@ -6,7 +6,7 @@
 
 ## workflow template
 
-[deploy this template](deploy.md){ .md-button } [update this template](update.md){ .md-button }
+[get setup](setup.md){ .md-button } [deploy this template](deploy.md){ .md-button } [update this template](update.md){ .md-button }
 
 [workflow](workflow.md){ .md-button }
 [projects](projects.md){ .md-button }
