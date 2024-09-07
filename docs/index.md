@@ -8,6 +8,7 @@
 
 [get setup](setup.md){ .md-button } [deploy this template](deploy.md){ .md-button } [update this template](update.md){ .md-button }
 
+[first principles](first.md){ .md-button }
 [workflow](workflow.md){ .md-button }
 [projects](projects.md){ .md-button }
 [tasks](todo.md){ .md-button }
