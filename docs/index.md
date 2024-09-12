@@ -1,12 +1,7 @@
 
-!!! reference "workflow/"
+!!! reference "workflow/ is a folder fulll of the best tools"
 
-    - workflow is a folder full of tools you can easily customize and deploy yourself
-    - this includes many optional things
-    - a blank website like this one you are reading that has search, tagging, site wide glossary etc.
-    - documentation tools like bullet journaling search tagging and a site wide glossary
-    - command line task tracking with web integration 
-    - workflow gets you or someone else directly to the exit following the shortest path
+    Workflow is a folder of reusable tools, including command line automation, task tracking, and online or offline collaboration features, designed to streamline personal or professional projects, keep things organized, and leave a clear trail for others to follow.
 
 ## screencast
 
