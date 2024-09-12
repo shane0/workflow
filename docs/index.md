@@ -1,4 +1,12 @@
 
+!!! reference "workflow/"
+
+    - workflow is a folder full of tools you can easily customize and deploy yourself
+    - this includes many optional things
+    - a blank website like this one you are reading that has search, tagging, site wide glossary etc.
+    - documentation tools like bullet journaling search tagging and a site wide glossary
+    - command line task tracking with web integration 
+    - workflow gets you or someone else directly to the exit following the shortest path
 
 ## screencast
 
