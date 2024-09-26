@@ -15,17 +15,17 @@ from cli import (
 )
 import click
 
+import pyperclip
 # import subprocess
 import os
 import sys
 import inspect
 
 # import glob
-# import datetime
+from datetime import datetime
 
 # using inspect to import globals from parent dir module
-current_dir = os.path.dirname(os.path.abspath(
-    inspect.getfile(inspect.currentframe())))
+current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 
@@ -45,16 +45,46 @@ def edit():
 
 
 @cli.command()
+@click.option(
+    "--date",
+    type=click.DateTime(formats=["%Y-%m-%d"]),
+    default=datetime.now(),
+    help="The date to format (YYYY-MM-DD)",
+)
+def f(date):
+    """show bujo date formats"""
+    try:
+        dmy = date.strftime("%m %B %Y")
+        yyyy = date.strftime("%Y")
+        full_month = date.strftime("%B")
+        week = date.strftime("%U")
+        dayword = date.strftime("%A")
+        dayno = date.strftime("%d")
+        jday = date.strftime("%j")
+        isodate = date.strftime("%Y-%m-%d")
+        click.echo(dayword)
+        click.echo(dayno)
+        click.echo(full_month)
+        click.echo(yyyy)
+        click.echo(week)
+        click.echo(jday)
+        click.echo(dmy)
+        click.echo(isodate)
+    except ValueError as e:
+        click.echo(f"Invalid date format: {e}")
+
+
+@cli.command()
 def m():
     """start mkdocs server"""
-    click.launch('http://localhost:8001')
-    os.system('mkdocs serve')
+    click.launch("http://localhost:8001")
+    os.system("mkdocs serve")
 
 
 @cli.command()
 def s():
     """start dev server"""
-    os.system('npm start')
+    os.system("npm start")
 
 
 @cli.command()
@@ -95,10 +125,19 @@ def future():
 
 
 @cli.command()
-def month():
+@click.option(
+    "--date",
+    type=click.DateTime(formats=["%Y-%m-%d"]),
+    default=datetime.now(),
+    help="The date to format (YYYY-MM-DD)",
+)
+def month(date):
     """month file"""
     click.echo(MONTHFILE)
     click.edit(filename=MONTHFILE, editor="code")
+    dmy = date.strftime("%m %B %Y")
+    click.echo(f'# {dmy}')
+    pyperclip.copy(f'# {dmy}')
 
 
 YEARFILE = BUJO_FOLDER + "/" + YEAR + ".md"
@@ -161,6 +200,7 @@ def remote():
     click.launch(
         "https://remotive.io/?live_jobs%5Bquery%5D=support%20engineer&live_jobs%5BrefinementList%5D%5Bquick_location_filter%5D%5B0%5D=USA%20Only"
     )
+
 
 @cli.command()
 def zl():
