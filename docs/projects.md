@@ -8,3 +8,11 @@
 - usually it's code blocks used for local development
 - an index of scattered information related to the project
 - etc.
+
+## cucumber rule cookiecutter
+
+- this repo has a cookiecutter for cucumber `rule/` folders if your tests get bloated
+
+```sh
+cookiecutter https://github.com/shane0/workflow --directory rule
+```

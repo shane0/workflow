@@ -6,3 +6,4 @@ x 2023-09-14 add lexi
 x 2023-09-14 lexi action for cli demo
 x 2023-09-14 setup discussion
 x 2023-09-17 deploy a new buddhism site
+x 2024-10-09 cookiecutter for cucumber rules

@@ -1,0 +1,4 @@
+{
+    "rule": "example",
+    "release_date": "{% now 'local' %}"
+}

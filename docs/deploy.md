@@ -10,8 +10,6 @@ tags:
 
 ## screencast
 
-
-
 ## deploying the first time
 
 - on a new machine

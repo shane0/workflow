@@ -14,6 +14,8 @@
 [first principles](first.md){ .md-button }
 [workflow](workflow.md){ .md-button }
 [projects](projects.md){ .md-button }
+[cucumber](behave.md){ .md-button }
+[cookiecutter](cookiecutter.md.md){ .md-button }
 [tasks](todo.md){ .md-button }
 [bujo](bujo/2023.md){ .md-button }
 

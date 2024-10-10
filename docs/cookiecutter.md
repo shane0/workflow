@@ -9,7 +9,6 @@ tags:
 - it is so simple it is stupid that everyone has overlooked this
 - I believe this spawned from the django web framework app spawn command
 
-
 ## screencast
 
 ## `cookiecutter.json`
@@ -99,4 +98,10 @@ version [0.1.0]:
 
 ```sh
 cookiecutter https://github.com/shane0/workflow --directory template/
+```
+
+## cucumber rule cookiecutter
+
+```sh
+cookiecutter https://github.com/shane0/workflow --directory rule
 ```

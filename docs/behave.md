@@ -1,6 +1,7 @@
 ---
 tags:
   - test 
+  - cookiecutter 
   - cucumber 
   - python 
 ---
@@ -74,3 +75,39 @@ jobs:
           echo "Tests skipped due to SKIP_TESTS environment variable."
         fi
 ```
+
+## cookiecutter for rules/
+
+- when features get bloated with rules I find this useful
+- bust out rules into individual `rule/` folders with individual feature files
+- <https://cucumber.io/docs/gherkin/reference/?sbsearch=Rule#rule>
+
+The purpose of the Rule keyword is to represent one business rule that should be implemented. It provides additional information for a feature. A Rule is used to group together several scenarios that belong to this business rule. A Rule should contain
+
+```sh
+cookiecutter rule
+```
+
+- if it is not installed
+
+```sh
+cookiecutter https://github.com/shane0/workflow --directory rule
+```
+
+## three amigos
+
+- the three amigos are from business dev & test
+- map it out
+
+![g](images/map.png)
+
+- good to go
+
+![g](images/good_example.png)
+
+- slice up the story
+![g](images/slice_story.png)
+- someone is missing or not answering questions
+![g](images/someone_missing.png)
+- finish the story
+![g](images/unfinished_story.png)
