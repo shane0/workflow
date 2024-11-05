@@ -46,7 +46,7 @@ class PluginCLI(click.MultiCommand):
 @click.command(cls=PluginCLI)
 def cli():
     """2022 Shane Null Workflows"""
-    click.echo(dir(PluginCLI))
+    # click.echo(dir(PluginCLI))
     pass
 
 

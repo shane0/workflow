@@ -8,3 +8,5 @@
 (A) cli c commitizen command lines
 (B) add the workflow button to the homepage
 (A) screencast homepage workflow projects tasks click cookiecutter
+(A) fix bujo alias then click
+(A) selenium folder
