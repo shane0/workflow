@@ -30,8 +30,15 @@ theme:
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
   - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?tex"
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
   - admonition
   - pymdownx.details
   - pymdownx.inlinehilite
@@ -99,3 +106,4 @@ extra:
       link: "https://twitter.com/shane_null"
     - icon: "fontawesome/brands/linkedin"
       link: "https://www.linkedin.com/in/shanenull"
+
