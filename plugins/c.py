@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""commitizen"""
+"""cucumber"""
 
 from cli import (
     BUJO_FOLDER,
@@ -19,6 +19,7 @@ import click
 import os
 import sys
 import inspect
+import plugins.mods.cucumber_tools as cucumber_tools
 
 # import glob
 # import datetime
@@ -32,7 +33,7 @@ sys.path.insert(0, parent_dir)
 @click.group()
 def cli(args=None):
     """\b
-    commitizen handles version and changelog
+    cucumber
     """
     return 0
 
@@ -42,43 +43,54 @@ def edit():
     """edit plugin"""
     click.edit(filename=inspect.getfile(inspect.currentframe()), editor="code")
 
+@cli.command()
+def t():
+    """run all tests with behave """
+    cmd = "behave"
+    os.system(cmd)
 
 @cli.command()
 def h():
-    """help"""
-    cmd = "cz -h"
-    os.system(cmd)
-
-
-@cli.command()
-def b():
-    """bump up version"""
-    cmd = "cz bump"
+    """show behave help"""
+    cmd = "behave -h"
     os.system(cmd)
 
 @cli.command()
-def i():
-    """commit examples"""
-    cmd = "cz info"
-    os.system(cmd)
+def p():
+    """pick one test """
+    folder_choice = 'features/' 
+    selected_tests = cucumber_tools.list_files_with_extension(f'{folder_choice}','.feature')
+    selected_test = cucumber_tools.choose_from_list(selected_tests)
+    test_command = f'behave features/{folder_choice}/{selected_test}'
+    click.echo(f'{test_command}')
+    os.system(test_command)
+    selected_test_file  = f'{folder_choice}/{selected_test}'
+    click.edit(filename=selected_test_file,editor='code')
 
 
 @cli.command()
-def c():
-    """generate changelog"""
-    cmd = ["cz changelog", "cat CHANGELOG.md"]
-    for c in cmd:
-        os.system(c)
+def m():
+    """pick a manual test """
+    click.echo('pick a test suite')
+    selected_suite = cucumber_tools.list_folders('features')
+    folder_choice = cucumber_tools.choose_from_list(selected_suite)
+    click.echo(f' pick a test in {folder_choice}')
+    selected_tests = cucumber_tools.list_files_with_extension(f'features/{folder_choice}','.feature')
+    selected_test = cucumber_tools.choose_from_list(selected_tests)
+    test_command = f'behave features/{folder_choice}/{selected_test}'
+    click.echo(f'{test_command}')
+    os.system(test_command)
+    selected_test_file  = f'features/{folder_choice}/{selected_test}'
+    click.edit(filename=selected_test_file,editor='code')
+
 
 
 @cli.command()
-def v():
-    """version"""
-    cmd = [
-        "echo citizen is at version",
-        "cz version ",
-        "echo this app is at version",
-        "cz version -p",
-    ]
-    for c in cmd:
-        os.system(c)
+def d():
+    """demo: with selenium"""
+    folder_choice = 'utils/'
+    selected_tests = cucumber_tools.list_files_with_extension(f'{folder_choice}','.py')
+    selected_test = cucumber_tools.choose_from_list(selected_tests)
+    test_command = f'python {folder_choice}{selected_test}'
+    click.echo(f'{test_command}')
+    os.system(test_command)

@@ -159,3 +159,15 @@ def f():
 #     # Delete a record (e.g., index 2)
 #     db.delete_record(2)
 #     print("Data after deleting a record:", db.read_data())
+
+# @cli.command()
+# def s():
+#     """pick a shell script"""
+#     test = find_tools.select_script("utils")
+#     test = test.replace("\\", "/")
+#     # cmd = f"/usr/bin/bash /{test}"
+#     cmd = f"bash {test}"
+#     click.echo(cmd)
+#     pyperclip.copy(cmd)
+#     os.system(cmd)
+#     click.edit(filename=test, editor="code")

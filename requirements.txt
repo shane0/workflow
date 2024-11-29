@@ -8,4 +8,5 @@ mkdocs
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin
 mkdocs-glightbox
+selenium
 # glightbox

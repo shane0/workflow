@@ -7,7 +7,6 @@ alias sa='source ~/.bashrc'
 
 # macos
 alias c='clear'
-alias r='ranger'
 alias rd="vim ./readme.md"
 alias cl="vim ./changelog.md"
 alias jf='mkdir "$(date +%F)" && cd "$(date +%F)"'

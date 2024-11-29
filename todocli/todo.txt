@@ -10,3 +10,4 @@
 (A) screencast homepage workflow projects tasks click cookiecutter
 (A) fix bujo alias then click
 (A) selenium folder
+(A) cucumber click pick type pick file pick tags or features run manual or auto optional sqlite saves results with timers

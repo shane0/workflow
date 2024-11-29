@@ -1,0 +1,13 @@
+remaining_weeks() {
+  local current_week=$(date +%U | sed 's/^0*//')
+  local remaining=$((52 - current_week))
+  local total_weeks=52
+
+  # Calculate percentage (avoiding potential floating-point division issues)
+  local percentage=$(( 100 * remaining / total_weeks ))
+
+  # Display both remaining weeks and percentage
+  echo "There are $remaining weeks remaining in 2024 (approximately $percentage%)."
+}
+
+alias week='echo "Week  $(( $(date +%U) + 1 )) of 52, $(remaining_weeks) weeks remaining in $(date +%Y)"'
