@@ -11,3 +11,4 @@
 (A) fix bujo alias then click
 (A) selenium folder
 (A) cucumber click pick type pick file pick tags or features run manual or auto optional sqlite saves results with timers
+(A) click with choose using lists dicts custom objects folders files scripts universal get shit done
