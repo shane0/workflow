@@ -1,110 +1,148 @@
-# tech lock for dummies
+# tech lock
 
-- see solutions below someday I'll make a dedicated site with just solutions
+- mahy people waste their life working for a computer
+- they were designed to do work for you not make you do it
+- learn to program and stay in the command line when possible and you will live a better life
+- there is no excuse now to not learn to make a computer work for you
+- some solutions & sites about tech lock in
+- life is short don't waste your time on nonsense like tech lock in
 
-## blahblahblah
+| Website Link                                             | Name                     | Description                                                                                  |
+|----------------------------------------------------------|--------------------------|----------------------------------------------------------------------------------------------|
+| [killedbygoogle.com](https://killedbygoogle.com)         | Killed by Google         | Catalogs Google products and services discontinued over the years.                          |
+| [mcbroken.com](https://mcbroken.com)                    | McBroken                 | Tracks the status of McDonald's ice cream machines globally.                                |
+| [right-to-repair.org](https://www.right-to-repair.org)   | Right to Repair          | Advocates for the right to repair electronics and machinery, including John Deere tractors. |
+| [fixmystreet.com](https://www.fixmystreet.com)           | Fix My Street            | Enables citizens to report local street issues to authorities in the UK.                    |
+| [repair.org](https://www.repair.org)                    | Repair.org               | Organizes efforts to promote Right to Repair legislation globally.                          |
+| [monopolies.dev](https://monopolies.dev)                | Monopolies.dev           | Highlights tech monopolies and their restrictive practices.                                 |
+| [alternativeto.net](https://alternativeto.net)          | AlternativeTo            | Provides user-recommended alternatives to popular apps and software.                        |
+| [openbenches.org](https://openbenches.org)              | Open Benches             | Crowdsources the locations and details of public memorial benches.                          |
+| [wikileaks.org](https://www.wikileaks.org)              | WikiLeaks                | Publishes classified and censored information provided by whistleblowers.                   |
+| [haveibeenpwned.com](https://haveibeenpwned.com)         | Have I Been Pwned        | Lets users check if their data has been part of a security breach.                          |
+| [rutracker.org](https://rutracker.org)                  | RuTracker                | Russian tracker for digital files often locked behind paywalls or inaccessible.             |
+| [nosfer.app](https://nosfer.app)                        | NOSFER                   | Decentralized app catalog countering centralized app stores like Apple's or Google's.       |
+| [letsencrypt.org](https://letsencrypt.org)              | Let’s Encrypt            | Provides free SSL/TLS certificates to secure websites.                                      |
+| [archive.org](https://archive.org)                      | Internet Archive         | Digital library offering free access to billions of books, movies, software, and websites.  |
+| [degoogle.jmoore.dev](https://degoogle.jmoore.dev)      | Degoogle Yourself        | Resources for reducing reliance on Google services.                                         |
+| [themarkup.org](https://themarkup.org)                  | The Markup               | Investigates technology's influence on society.                                             |
+| [glassdoor.com](https://www.glassdoor.com)              | Glassdoor                | Allows employees to anonymously review companies and their work environments.               |
+| [publicdomainreview.org](https://publicdomainreview.org)| Public Domain Review     | Showcases works that have entered the public domain.                                        |
+| [goodreads.com](https://www.goodreads.com)              | Goodreads                | A platform to track, share, and review books outside of proprietary bookstores.             |
+| [tinkercad.com](https://www.tinkercad.com)              | Tinkercad                | Advocates open design by providing free 3D modeling tools for creators.                     |
 
-- have you ever noticed after a software update something broke or a feature was removed or moved around or renamed?
-- have you ever used software so difficult to use you had to purchase training or books?
-- have you ever had a job that required passing tests that were awkward or cost money to take or to prepare for?
-- have you ever been sent a file you cannot open on your computer?
-- because the person had a different type of computer than you?
-- or because they used some software that requires a purchase?
-- have you ever bought something to fix something and the part did not fit?
-- have you ever shopped for replacement windshield wipers and noticed there are 9 billion different types that are all a simple strip of rubber?
-- tech lock happens when a weak ingorant person intentionally breaks a product
-- intuition should tell you how to identify it
-- emotionally you can recognize this by noting rising levels of frustration
-- or productivity drops
-- or costs increase for no reason
-- or solving issues does not happens or takes enormous amounts of time
-- there are obtuse and subtle ways this happens
-- to strengthen "their" corporation
-- this is a global issue
-- overall it slows down progress for humanity
-- makes our species weak
-- this is a maladaptation
-- a form of infighting
-- patents laws trademarks etc.
 
-## how to not be dumb
 
-- teach people bout tech lock in
-- a logical conversation to avoid tech lock applies any of the pest topics
-- pest: politics economics social technical
-- adults have a hard time understanding this elementary concept
-- this should be taught in grade 1 or 2
-- sharing used to be in elementary school
-- do not use products with tech lock in
-- do not creating products with tech lock in
+| **Website**          | **Year Created** | **Tech Lock-In Cause**                                                   |
+|-----------------------|------------------|---------------------------------------------------------------------------|
+| Facebook             | 2004             | Network effects and social graph lock-in.                                |
+| Twitter              | 2006             | Dependency on unique, centralized short-form social communication.       |
+| YouTube              | 2005             | Content ecosystem requiring its hosting and distribution infrastructure. |
+| Instagram            | 2010             | Network effects in photo-sharing and integrated mobile experiences.      |
+| Snapchat             | 2011             | Ephemeral messaging with locked-in user base via unique filters/features.|
+| TikTok               | 2016             | Algorithm-driven content ecosystem unique to its app experience.         |
+| WhatsApp             | 2009             | Messaging lock-in via wide adoption and encryption protocols.            |
+| Spotify              | 2006             | Music library access tied to proprietary streaming agreements.           |
+| iCloud               | 2011             | Apple ecosystem lock-in through seamless device integration.             |
+| Google Drive         | 2012             | File storage and sharing tied to Google account integration.             |
+| Zoom                 | 2011             | Video conferencing dominance through specific enterprise integrations.   |
+| LinkedIn             | 2003             | Professional networking reliant on its entrenched business profiles.     |
+| GitHub               | 2008             | Development collaboration based on proprietary Git hosting services.     |
+| AWS Marketplace      | 2012             | Cloud services tethering businesses to Amazon ecosystem.                 |
+| Salesforce           | 1999 (relevant)  | CRM lock-in through proprietary APIs and third-party app reliance.       |
+| WordPress            | 2003             | CMS dominance due to plugin ecosystem and hosting lock-in.               |
+| Wix                  | 2006             | Website building tied to its hosted infrastructure.                      |
+| Netflix              | 2007             | Streaming lock-in via exclusive licensing agreements and original content.|
+| Shopify              | 2006             | E-commerce lock-in through app ecosystem and integrated payments.        |
+| Slack                | 2013             | Team communication reliant on proprietary integrations and APIs.         |
 
-## people who defend tech lock in
 
-- the only people that defend this have incorrect views
-- they are someone who profits from the problem
-- they are related or paid by someone who profits
-- or they are just mentally ill greedy needy
-- or other dramatic and illogical reasons
+| **Event**                                                                 | **Year** | **Details**                                                                                      |
+|---------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------|
+| Microsoft blocked Office 365 competitors with restrictive contracts      | 2019     | Made software harder to use on non-Azure platforms, driving cloud lock-in. 【5】【6】              |
+| European Union fines for anticompetitive cloud practices                 | 2020     | EU accused Microsoft of unfair licensing to hinder competitors like AWS. 【5】                   |
+| VA forced into Azure through restrictive Microsoft licensing             | 2021     | Veterans Affairs spent $1.6B without meaningful competition due to vendor lock-in. 【7】         |
+| Cloud exit fees soared for leaving Azure                                 | 2022     | Microsoft imposed hefty penalties, making it costly to leave its ecosystem. 【6】                |
+| Teams bundled with Office, stifling Slack competition                    | 2020     | Microsoft faced investigations for unfairly bundling its software. 【5】【7】                    |
+| Surface Hub exclusive to Teams                                           | 2018     | Hardware only compatible with Microsoft services, excluding other conferencing tools. 【5】      |
+| Windows preloads limited user choice                                     | Ongoing  | OEMs locked into shipping Windows by default, limiting Linux or other OS options. 【6】         |
+| UK government Azure exclusivity                                          | 2023     | Contract terms limited options for using non-Microsoft services, affecting public funds. 【6】   |
+| Azure AD enforced for Microsoft apps                                     | 2022     | Popular apps required Azure for authentication, marginalizing alternatives. 【5】                |
+| Skype deprecation to push Teams                                          | 2020     | Microsoft sunset Skype for Business to drive Teams adoption. 【6】                               |
+| Microsoft pushed DirectX API changes                                    | 2017     | Favored its gaming ecosystem, making alternatives like OpenGL less viable. 【6】                 |
+| OneDrive made incompatible with third-party file managers                | 2021     | Limited user options to integrate cloud services. 【5】                                          |
+| Internet Explorer legacy dependencies enforced                          | Ongoing  | Many organizations locked into IE-compatible intranet apps. 【6】                                |
+| Microsoft cloud data export fees                                         | Ongoing  | High costs penalized customers moving data to competing clouds. 【6】                            |
+| Windows 11 TPM requirements                                              | 2021     | Hardware locks excluded non-compliant machines, pushing new purchases. 【5】                    |
+| Azure discounts conditional on full commitment                          | Ongoing  | Conditional pricing favored long-term lock-in over flexibility. 【6】                            |
+| Cortana’s deep Windows integration                                       | 2019     | Forced adoption as default voice assistant in Windows builds. 【6】                              |
+| Office perpetual licensing phased out                                   | 2021     | Drove users to Office 365 subscriptions instead of one-time purchases. 【7】                    |
+| Windows Server forced renewal terms                                     | Ongoing  | Limited use outside Azure, driving continued reliance on Microsoft services. 【5】【7】         |
+| DirectStorage API exclusivity                                            | 2022     | Tied cutting-edge game performance to Windows, sidelining Linux or macOS. 【6】                 |
 
-## why does tech lock in happen?
 
-- tech lock in is a social issue
-- it stems from fear, mental illness, insecurity and other kleshas
-- there are many foolish ways to "accomplish" this
-- one is to make your technology excessively complicated
-- there are many foolish ways to "accomplish"  excessively complicated  software
-- making software complicated
+| **#** | **Event**                                    | **Description**                                                                                                                | **Year** |
+|-------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|
+| 1     | **Windows XP End-of-Life**                   | Microsoft ended support for Windows XP, leaving organizations locked into outdated, insecure systems.                          | 2014     |
+| 2     | **Adobe Flash End-of-Life**                  | Adobe phased out Flash, forcing many web developers to transition hastily to newer standards.                                  | 2020     |
+| 3     | **Internet Explorer Dependency**             | Organizations remained locked into using outdated Internet Explorer versions for legacy applications.                          | 2010s    |
+| 4     | **Printer DRM**                              | Printer manufacturers embedded DRM in ink cartridges, locking users into buying overpriced, brand-specific replacements.       | Ongoing  |
+| 5     | **Tesla Charging Standard**                  | Tesla used proprietary charging plugs, causing difficulties for owners of other EV brands until wider adapter support emerged. | 2010s    |
+| 6     | **Apple Lightning Cables**                   | Apple's use of Lightning cables for iPhones forced consumers into buying expensive proprietary chargers.                       | 2012+    |
+| 7     | **Amazon Kindle Format Lock-in**             | Kindle e-readers supported proprietary formats, locking users into Amazon's ecosystem for books.                               | Ongoing  |
+| 8     | **Digital Cameras with Proprietary Formats** | Some camera manufacturers used proprietary RAW formats, complicating workflows for photographers.                              | Ongoing  |
+| 9     | **Google Stadia's Failure**                  | Google's gaming service lacked support for transferring purchases to other platforms, leaving users stranded upon shutdown.    | 2022     |
+| 10    | **Proprietary IoT Platforms**                | Smart home devices locked users into specific ecosystems, such as Amazon Alexa or Google Home.                                 | Ongoing  |
+| 11    | **Microsoft Office File Format Wars**        | Continued reliance on proprietary DOCX and XLSX formats hampered interoperability with free alternatives like LibreOffice.     | Ongoing  |
+| 12    | **Epic vs. Steam Ecosystem Wars**            | Gamers faced fragmentation due to exclusivity deals locking games into Epic or Steam platforms.                                | Ongoing  |
+| 13    | **TikTok Algorithms**                        | Content creators became locked into TikTok due to its unique algorithm favoring specific formats and behaviors.                | Ongoing  |
+| 14    | **Ride-Share App Exclusivity**               | Uber and Lyft locked drivers and riders into specific ecosystems through pricing models and app exclusivity.                   | 2010s    |
+| 15    | **Social Media Account Recovery Issues**     | Facebook and Google users struggled to recover accounts due to dependency on their platforms' unique processes.                | Ongoing  |
+| 16    | **Broadband Monopoly**                       | ISPs in the U.S. often monopolized regions, forcing customers into limited service options without alternatives.               | Ongoing  |
+| 17    | **Crypto Wallet Lock-in**                    | Users lost funds due to reliance on specific, incompatible cryptocurrency wallets.                                             | Ongoing  |
+| 18    | **Streaming Exclusivity Wars**               | Platforms like Netflix, Disney+, and HBO Max locked content behind exclusive paywalls, fragmenting entertainment access.       | 2010s+   |
+| 19    | **Tesla Autopilot Updates**                  | Tesla customers were locked into Tesla's ecosystem to access critical software updates for self-driving features.              | Ongoing  |
+| 20    | **Zoom's Videoconferencing Domination**      | Companies became dependent on Zoom during the pandemic, with limited integration across other platforms.                       | 2020     |
 
-- when humans are weakened by three poisons
-- in buddhism there are 3 main poisons
-- ignroance greed and hate
-- tech lock is a symptom of individuals
-- mundane ordinary ignorance
-- humanities weakest individuals
-- it degrades quality
+| #  | Event                                     | Description                                                                                                                        |
+|----|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | **QWERTY Keyboard**                       | The QWERTY layout was designed to prevent typewriter jams, not for efficiency.                                                     |
+| 2  | **VHS vs Betamax**                        | VHS won despite Betamax being technically superior, due to marketing and licensing.                                                |
+| 3  | **HD-DVD vs Blu-Ray**                     | HD-DVD was technically better, but Blu-Ray won due to Sony's dominance and exclusive content deals.                                |
+| 4  | **Windows Vista**                         | Despite its many flaws and poor performance, Microsoft pushed it for years, locking users into bad software.                       |
+| 5  | **Apple's 30-pin Dock Connector**         | Apple forced users to adopt a proprietary connector, only to replace it with Lightning years later.                                |
+| 6  | **Sony's MiniDisc**                       | Sony’s proprietary MiniDisc format was locked into their ecosystem, but was eclipsed by MP3 players.                               |
+| 7  | **Google Glass**                          | Early adoption of wearable tech led to failure due to privacy concerns and impractical design.                                     |
+| 8  | **The Concorde Supersonic Jet**           | A technological marvel that became financially unsustainable, locking in expensive air travel.                                     |
+| 9  | **Microsoft Internet Explorer**           | Microsoft included Internet Explorer as the default browser on Windows, forcing users into a subpar browser.                       |
+| 12 | **Apple's "Antennagate"**                 | Apple's iPhone 4 antenna design was flawed, locking users into defective products.                                                 |
+| 13 | **LaserDisc**                             | A high-quality video format that failed to gain traction, locked in by high cost and poor convenience.                             |
+| 14 | **Betamax's Blockbuster Agreement**       | Blockbuster's exclusive deal with VHS over Betamax kept VHS the dominant format, even though Betamax was superior.                 |
+| 15 | **Windows XP's continued dominance**      | Despite many technical advancements in the 2000s, Windows XP stayed locked in as the dominant OS for too long, even when outdated. |
+| 16 | **The Great Network Effect of MySpace**   | MySpace's dominance was locked in by early social network usage patterns, preventing the platform from improving.                  |
+| 17 | **IBM PC Jr.**                            | IBM's attempt to enter the personal computer market was doomed by its own proprietary technology, and poor design decisions.       |
+| 18 | **The Gold Standard**                     | A rigid monetary system that locked economies into a limited supply of gold, restricting growth and flexibility.                   |
+| 19 | **Beta Testing in Early Internet Era**    | Tech companies relied on their early users to test unstable software, often locking them into broken systems.                      |
+| 20 | **The Tower of Babel (Language Lock-in)** | The construction of the Tower of Babel led to the "lock-in" of human communication through language barriers.                      |
 
-## preventing repairs
-
-- another way is to prevent the user from maintaining the product
-- the original rolls royce vehicles had a lock on the hood only the factory could open bypassing it voided your warranty
-- there are ongoing court cases with  farming equipment
-- john deer and other brands will break farming equipment
-- a message appears on screen requiring a paid tech come unlock the product
-- this can be for mundane issues a child could fix
-
-## prevents technology from functioning
-
-- expiring warranties
-- using a subscription vig pay model
-- app stores
-- amazon remove the book 1984 from kindle
-- to make it worse they did not refund the purchase
-- basically they repeated a habit humans have of "burning books"
-- a form of censorship
-- redbox just plain shut down
-- there were users with 5 figure purchases that lost everything they purchased
-- or they just kill a product <https://killedbygoogle.com/>
-- usually the reason for killing a product is tech lock in
-- often they shut down things that are the most useful
-- because they want to start over and build it with more monetization
+This table highlights 20 real historical events that exhibit how technology lock-in, bad design choices, or poor execution led to failures or long-lasting consequences in tech history.
 
 ## childish patents
 
 - adults fight over things using patents
 - overall it slows down progress for humanity
 
-| Patent Name/Description                         | Patent Number        | Why It's Childish                                                                 |
-|-------------------------------------------------|----------------------|----------------------------------------------------------------------------------|
-| "Interactive Virtual Pet"                      | U.S. Patent 6,491,607| A patent for a virtual pet on a computer, reminiscent of Tamagotchi.            |
-| "Method of Swinging on a Swing"                | U.S. Patent 6,368,227| An algorithm for optimizing the motion of swinging, making playtime "efficient."|
-| "Digital Kisses"                               | U.S. Patent 7,089,952| A system to send virtual kisses through a mobile device—romantic or childish?   |
-| "Toy Simulation Device"                        | U.S. Patent 6,429,846| A software simulation of toy functions, effectively turning play into code.     |
-| "Storyline Creation for Interactive Media"     | U.S. Patent 5,935,223| A patent for creating choose-your-own-adventure stories in software.            |
-| "Apple Patenting Round Corners"                | U.S. Patent D670,286 | Apple's famous design patent for devices with rounded corners.                  |
-| "Mood Detection Through Emojis"               | U.S. Patent 9,235,989| Detecting user mood through emoji usage—a playful take on emotions in text.     |
-| "Digital Sandbox for Kids"                    | U.S. Patent 8,910,789| Software that simulates playing in a sandbox, bringing physical play to digital.|
-| "Virtual Bubble Wrap"                         | U.S. Patent 6,377,191| A software-based bubble wrap simulator for popping virtual bubbles.             |
-| "Virtual Paper Airplane Game"                 | U.S. Patent 7,756,755| Simulating the throwing of paper airplanes in a virtual environment.            |
+| Patent Name/Description                    | Patent Number         | Why It's Childish                                                                |
+|--------------------------------------------|-----------------------|----------------------------------------------------------------------------------|
+| "Interactive Virtual Pet"                  | U.S. Patent 6,491,607 | A patent for a virtual pet on a computer, reminiscent of Tamagotchi.             |
+| "Method of Swinging on a Swing"            | U.S. Patent 6,368,227 | An algorithm for optimizing the motion of swinging, making playtime "efficient." |
+| "Digital Kisses"                           | U.S. Patent 7,089,952 | A system to send virtual kisses through a mobile device—romantic or childish?    |
+| "Toy Simulation Device"                    | U.S. Patent 6,429,846 | A software simulation of toy functions, effectively turning play into code.      |
+| "Storyline Creation for Interactive Media" | U.S. Patent 5,935,223 | A patent for creating choose-your-own-adventure stories in software.             |
+| "Apple Patenting Round Corners"            | U.S. Patent D670,286  | Apple's famous design patent for devices with rounded corners.                   |
+| "Mood Detection Through Emojis"            | U.S. Patent 9,235,989 | Detecting user mood through emoji usage—a playful take on emotions in text.      |
+| "Digital Sandbox for Kids"                 | U.S. Patent 8,910,789 | Software that simulates playing in a sandbox, bringing physical play to digital. |
+| "Virtual Bubble Wrap"                      | U.S. Patent 6,377,191 | A software-based bubble wrap simulator for popping virtual bubbles.              |
+| "Virtual Paper Airplane Game"              | U.S. Patent 7,756,755 | Simulating the throwing of paper airplanes in a virtual environment.             |
 
 ## certifcation
 
