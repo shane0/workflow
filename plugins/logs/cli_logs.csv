@@ -1,0 +1,118 @@
+timestamp,level,message
+2024-12-09T18:26 - INFO - Starting the CLI application...
+2024-12-09T18:26 - INFO - Loading command: bujo
+2024-12-09T18:26 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:26 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:26 - INFO - Loading command: c
+2024-12-09T18:26 - INFO - Loading command: c
+2024-12-09T18:26 - INFO - cli.py c loaded successfully.
+2024-12-09T18:26 - INFO - cli.py c loaded successfully.
+2024-12-09T18:26 - INFO - Loading command: cz
+2024-12-09T18:26 - INFO - Loading command: cz
+2024-12-09T18:26 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:26 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:26 - INFO - Loading command: f
+2024-12-09T18:26 - INFO - Loading command: f
+2024-12-09T18:26 - INFO - cli.py f loaded successfully.
+2024-12-09T18:26 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - Starting the CLI application...
+2024-12-09T18:27 - INFO - Loading command: f
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - Starting the CLI application...
+2024-12-09T18:27 - INFO - Loading command: f
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - Starting the CLI application...
+2024-12-09T18:27 - INFO - Loading command: bujo
+2024-12-09T18:27 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:27 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:27 - INFO - Loading command: c
+2024-12-09T18:27 - INFO - Loading command: c
+2024-12-09T18:27 - INFO - cli.py c loaded successfully.
+2024-12-09T18:27 - INFO - cli.py c loaded successfully.
+2024-12-09T18:27 - INFO - Loading command: cz
+2024-12-09T18:27 - INFO - Loading command: cz
+2024-12-09T18:27 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:27 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:27 - INFO - Loading command: f
+2024-12-09T18:27 - INFO - Loading command: f
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - Starting the CLI application...
+2024-12-09T18:27 - INFO - Loading command: f
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:27 - INFO - cli.py f loaded successfully.
+2024-12-09T18:30 - INFO - Starting the CLI application...
+2024-12-09T18:30 - INFO - Loading command: f
+2024-12-09T18:30 - ERROR - Error loading cli.py f: setup_logger() takes from 0 to 1 positional arguments but 2 were given
+2024-12-09T18:30 - ERROR - Error loading cli.py f: setup_logger() takes from 0 to 1 positional arguments but 2 were given
+2024-12-09T18:30 - INFO - Starting the CLI application...
+2024-12-09T18:30 - INFO - Loading command: bujo
+2024-12-09T18:30 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:30 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:30 - INFO - Loading command: c
+2024-12-09T18:30 - INFO - Loading command: c
+2024-12-09T18:30 - INFO - cli.py c loaded successfully.
+2024-12-09T18:30 - INFO - cli.py c loaded successfully.
+2024-12-09T18:30 - INFO - Loading command: cz
+2024-12-09T18:30 - INFO - Loading command: cz
+2024-12-09T18:30 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:30 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:30 - INFO - Loading command: f
+2024-12-09T18:30 - INFO - Loading command: f
+2024-12-09T18:30 - ERROR - Error loading cli.py f: setup_logger() takes from 0 to 1 positional arguments but 2 were given
+2024-12-09T18:30 - ERROR - Error loading cli.py f: setup_logger() takes from 0 to 1 positional arguments but 2 were given
+2024-12-09T18:30 - INFO - Starting the CLI application...
+2024-12-09T18:30 - INFO - Loading command: bujo
+2024-12-09T18:30 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:30 - INFO - cli.py bujo loaded successfully.
+2024-12-09T18:30 - INFO - Loading command: c
+2024-12-09T18:30 - INFO - Loading command: c
+2024-12-09T18:30 - INFO - cli.py c loaded successfully.
+2024-12-09T18:30 - INFO - cli.py c loaded successfully.
+2024-12-09T18:30 - INFO - Loading command: cz
+2024-12-09T18:30 - INFO - Loading command: cz
+2024-12-09T18:30 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:30 - INFO - cli.py cz loaded successfully.
+2024-12-09T18:30 - INFO - Loading command: f
+2024-12-09T18:30 - INFO - Loading command: f
+2024-12-09T18:30 - ERROR - Error loading cli.py f: setup_logger() takes from 0 to 1 positional arguments but 2 were given
+2024-12-09T18:30 - ERROR - Error loading cli.py f: setup_logger() takes from 0 to 1 positional arguments but 2 were given
+2024-12-09T18:31 - INFO - Starting the CLI application...
+2024-12-09T18:31 - INFO - Loading command: f
+2024-12-09T18:31 - INFO - cli.py f loaded successfully.
+2024-12-09T18:31 - INFO - cli.py f loaded successfully.
+2024-12-09T18:31 - INFO - Starting the CLI application...
+2024-12-09T18:31 - INFO - Loading command: f
+2024-12-09T18:31 - INFO - cli.py f loaded successfully.
+2024-12-09T18:31 - INFO - cli.py f loaded successfully.
+2024-12-09T18:31 - INFO - Starting the CLI application...
+2024-12-09T18:31 - INFO - Loading command: f
+2024-12-09T18:31 - INFO - cli.py f loaded successfully.
+2024-12-09T18:31 - INFO - cli.py f loaded successfully.
+2024-12-09T18:32 - INFO - Starting the CLI application...
+2024-12-09T18:32 - INFO - Loading command: f
+2024-12-09T18:32 - INFO - cli.py f loaded successfully.
+2024-12-09T18:32 - INFO - cli.py f loaded successfully.
+2024-12-09T18:32 - INFO - Starting the CLI application...
+2024-12-09T18:32 - INFO - Loading command: f
+2024-12-09T18:32 - INFO - cli.py f loaded successfully.
+2024-12-09T18:32 - INFO - cli.py f loaded successfully.
+2024-12-09T18:33 - INFO - Starting the CLI application...
+2024-12-09T18:33 - INFO - Loading command: f
+2024-12-09T18:33 - INFO - cli.py f loaded successfully.
+2024-12-09T18:33 - INFO - cli.py f loaded successfully.
+2024-12-09T18:33 - INFO - cli.py f loaded successfully.
+2024-12-09T18:33 - INFO - This is an info message from the plugin.
+2024-12-09T18:33 - INFO - This is an info message from the plugin.
+2024-12-09T18:33 - INFO - This is an info message from the plugin.
+2024-12-09T18:33 - WARNING - This is a warning message from the plugin.
+2024-12-09T18:33 - WARNING - This is a warning message from the plugin.
+2024-12-09T18:33 - WARNING - This is a warning message from the plugin.
+2024-12-09T18:33 - ERROR - This is an error message from the plugin.
+2024-12-09T18:33 - ERROR - This is an error message from the plugin.
+2024-12-09T18:33 - ERROR - This is an error message from the plugin.
+2024-12-09T18:33 - CRITICAL - This is a critical message from the plugin.
+2024-12-09T18:33 - CRITICAL - This is a critical message from the plugin.
+2024-12-09T18:33 - CRITICAL - This is a critical message from the plugin.

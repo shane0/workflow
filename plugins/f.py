@@ -21,6 +21,11 @@ import sys
 import inspect
 # from plugins.mods.csv_tools import CSVDatabase
 from plugins.mods.csv_tools import CSVFile 
+import logging
+from plugins.mods.log_tools import setup_logger
+
+# Set up the logger dynamically
+logger = setup_logger(logging.INFO)
 
 from pathlib import Path
 CURRENT_DIR = Path.cwd()
@@ -49,6 +54,15 @@ def cli(args=None):
 def edit():
     """edit plugin"""
     click.edit(filename=inspect.getfile(inspect.currentframe()), editor="code")
+
+@cli.command()
+def la():
+    """log all levels"""
+    logger.debug('This is a debug message from the plugin.')
+    logger.info('This is an info message from the plugin.')
+    logger.warning('This is a warning message from the plugin.')
+    logger.error('This is an error message from the plugin.')
+    logger.critical('This is a critical message from the plugin.')
 
 @cli.command()
 def p():
