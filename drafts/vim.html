@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMirror with Vim Keybindings</title>
+    <!-- CodeMirror CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/theme/dracula.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282a36;
+        }
+        #editor {
+            width: 90%;
+            height: 80%;
+        }
+        .CodeMirror {
+            height: 100%;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="editor">// Welcome to CodeMirror with Vim mode!
+// Press 'i' to insert, 'Esc' to command.
+// Enjoy!</textarea>
+
+    <!-- CodeMirror JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.js"></script>
+    <!-- Keymap for Vim -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/keymap/vim.min.js"></script>
+    <!-- JavaScript Mode -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/mode/javascript/javascript.min.js"></script>
+
+    <script>
+        // Initialize CodeMirror
+        const editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
+            lineNumbers: true,
+            mode: "javascript",
+            theme: "dracula",
+            keyMap: "vim",
+        });
+    </script>
+</body>
+</html>

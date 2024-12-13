@@ -9,6 +9,11 @@ import inspect
 import sys
 import shutil
 import datetime
+import sys
+
+import sys
+
+
 
 plugin_folder = os.path.join(os.path.dirname(__file__), "plugins")
 homedir = os.path.expanduser("~")
@@ -73,7 +78,6 @@ class PluginCLI(click.MultiCommand):
 
     def get_command(self, ctx, name):
         """Dynamically get the command."""
-        logger.info(f"Loading command: {name}")  # Log the command being loaded
         ns = {}
         fn = os.path.join(plugin_folder, name + ".py")
         try:
@@ -87,6 +91,11 @@ class PluginCLI(click.MultiCommand):
         # Return the dynamically loaded command
         command = ns.get("cli")
         if command:
+            if len(sys.argv) > 1:
+                logger.info(f"cli.py {sys.argv[1]}")
+                if len(sys.argv) > 2:
+                    logger.info(f"cli.py {sys.argv[1]} {sys.argv[1]}")
+                logger.info(f"Loading command: {name}")  # Log the command being loaded
             # Access before_invoke directly
             # logger.info(f"cli.py '{ctx.command.name}' executed with arguments: {ctx.args}")
             return command
@@ -100,7 +109,12 @@ class PluginCLI(click.MultiCommand):
 import pdb
 
 def before_invoke(self, ctx):
-    print(f"Arguments: {ctx.args}")
+    if len(sys.argv) > 1:
+        logger.info(f"cli.py {sys.argv[1]}")
+        if len(sys.argv) > 2:
+            logger.info(f"cli.py {sys.argv[1]} {sys.argv[1]}")
+        logger.info(f"Loading command: {name}")  # Log the command being loaded
+    click.echo(f"Arguments: {ctx.args}")
 
 # def before_invoke(self, ctx):
 #     print(f"Arguments: {ctx.args}")
@@ -126,5 +140,5 @@ def cli():
     pass
 
 if __name__ == "__main__":
-    logger.info("Starting the CLI application...")  # Log when the application starts
+
     cli()
