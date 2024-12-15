@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+alias vvv='set -o vi'
+alias vvc='python3 -m venv venv'
+alias vv='source venv/bin/activate'
+alias vd='deactivate'
+alias htp='python -m http.server'
+alias cli='python cli.py'
+alias rrr='pip install -r requirements.txt'
+alias ffs='python3 -m pip install --upgrade pip'

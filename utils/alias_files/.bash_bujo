@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 remaining_weeks() {
   local current_week=$(date +%U | sed 's/^0*//')
   local remaining=$((52 - current_week))

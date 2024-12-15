@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+alias grem='git ls-remote --heads | cut -d '/' -f 3'
+alias glp='git log --graph --pretty=oneline --abbrev-commit'
+alias gs='git status'

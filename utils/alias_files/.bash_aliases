@@ -1,5 +1,5 @@
-# bullet journaling aka bujo 
-#set -o vi
+#!/usr/bin/env bash
+set -o vi
 
 # manage aliases
 alias ea='vim ~/.bash_aliases'
