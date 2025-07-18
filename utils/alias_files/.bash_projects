@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+echo "loading utils/alias_files/.bash_projects"
+alias pppe='code ~/esoteric'
+alias pppw='code ~/.cookiecutters/workflow'
+alias pppb='code ~/github_repos/buddhism'
+alias pppj='code ~/github_repos/job_search'
+alias pppf='code ~/github_repos/food'

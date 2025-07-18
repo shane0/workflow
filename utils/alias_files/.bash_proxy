@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# proxy show
+echo "loading utils/alias_files/.bash_git"
+function echo_proxy_settings() {
+    echo "=== http_proxy settings ===:"
+    echo "http_proxy: $(echo $http_proxy | tee)"
+    
+    echo "HTTP_PROXY: $(echo $HTTP_PROXY | tee)"
+    echo
+    echo "=== https_proxy settings ===:"
+    echo "https_proxy: $(echo $https_proxy | tee)"
+    echo "HTTPS_PROXY: $(echo $HTTPS_PROXY | tee)"
+    echo "no_proxy: $(echo $no_proxy | tee)"
+}
+alias pshow='echo_proxy_settings'
+
+
+
+# proxy on
+function set_proxy() {
+    set HTTP_PROXY="http://something"
+    set http_proxy="http://something"
+    set HTTPS_PROXY="http://something"
+    set https_proxy="http://something"
+    export HTTP_PROXY="http://something"
+    export http_proxy="http://something"
+    export HTTPS_PROXY="http://something"
+    export https_proxy="http://something"
+    export no_proxy=some.net
+    export NO_PROXY=some.net
+}
+alias pon='set_proxy'
+
+
+# proxy off
+function unset_proxy() {
+    unset HTTP_PROXY
+    unset HTTPS_PROXY
+    unset http_proxy
+    unset https_proxy
+}
+alias poff='unset_proxy'

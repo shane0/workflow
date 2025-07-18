@@ -1,5 +1,13 @@
 # linus torvalds
 
+- linus installs only two apps on his laptop
+- the terminal
+- a browser
+- with those 2 he built the kernel & git
+- nearly all of the software on earth
+- runs on his reliable code
+- and is stored in his version control system
+
 ## data structure dictates code
 
 - <https://medium.com/webdevops/data-structures-548cbea9c520>
@@ -8,7 +16,7 @@ I’m a huge proponent of designing your code around the data, rather than the o
 
 ### good data structure
 
-## examples
+### examples
 
 - Eric Raymond’s “Rule of Representation” from 2003:
 - Fold knowledge into data, so program logic can be stupid and robust.

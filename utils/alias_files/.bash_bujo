@@ -1,14 +1,52 @@
 #!/usr/bin/env bash
+echo "loading utils/alias_files/.bash_todo"
+# deploy clean todocli/ app anywhere
+alias dtodo="cp -R ~/.cookiecutters/workflow/utils/todocli/ ."
+# alias calj='calendar -A 0 2>&1 | tee -a docs/bujo/$(date +%F).md'
+alias calj='cal 2>&1 | tee -a docs/bujo/$(date +%F).md'
+
+# use todocli app
+alias t='clear && ./todocli/todo.sh'
+alias d='clear && t listpri a'
+alias snooze='clear && t listpri'
+alias done='clear && cat ./todocli/done.txt'
+alias tedit='vim ./todocli/todo.txt'
+# alias tall='clear && find . -name "todo.txt" | xargs grep "+"'
+# alias tpri='clear && find . -name "todo.txt" | xargs grep "(A"'
+# alias tprib='clear && find . -name "todo.txt" | xargs grep "(B"'
+# alias tpric='clear && find . -name "todo.txt" | xargs grep "(C"'
+# alias thelp='clear && ./todocli/todo.sh shorthelp'alias cl="vim ./changelog.md"
+alias jf='mkdir "$(date +%F)" && cd "$(date +%F)"'
+alias ft='vim ./future.md'
+alias in='vim ./index.md'
+alias fj='vim ./"$(date +%F)".md'
+alias bj='cd ./bujo && fj || echo "there is no bujo folder"'
+alias bujo='cd ./bujo && fj || mkdir bujo && cd ./bujo && vim ./"$(date +%F)".md'
+
 remaining_weeks() {
-  local current_week=$(date +%U | sed 's/^0*//')
-  local remaining=$((52 - current_week))
-  local total_weeks=52
-
-  # Calculate percentage (avoiding potential floating-point division issues)
-  local percentage=$(( 100 * remaining / total_weeks ))
-
-  # Display both remaining weeks and percentage
-  echo "There are $remaining weeks remaining in 2024 (approximately $percentage%)."
+    local current_week=$(date +%U | sed 's/^0*//')
+    local remaining=$((52 - current_week))
+    local total_weeks=52
+    
+    # Calculate percentage (avoiding potential floating-point division issues)
+    local percentage=$(( 100 * remaining / total_weeks ))
+    
+    # Display both remaining weeks and percentage
+    echo "There are $remaining weeks remaining in 2024 (approximately $percentage%)."
 }
 
 alias week='echo "Week  $(( $(date +%U) + 1 )) of 52, $(remaining_weeks) weeks remaining in $(date +%Y)"'
+
+# remaining_weeks() {
+#   local current_week=$(date +%U | sed 's/^0*//')
+#   local remaining=$((52 - current_week))
+#   local total_weeks=52
+
+#   # Calculate percentage (avoiding potential floating-point division issues)
+#   local percentage=$(( 100 * remaining / total_weeks ))
+
+#   # Display both remaining weeks and percentage
+#   echo "There are $remaining weeks remaining in 2024 (approximately $percentage%)."
+# }
+
+# alias week='echo "Week  $(( $(date +%U) + 1 )) of 52, $(remaining_weeks) weeks remaining in $(date +%Y)"'

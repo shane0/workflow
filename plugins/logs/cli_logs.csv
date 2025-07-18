@@ -1,31 +1,101 @@
 timestamp,level,module,message
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py c loaded successfully.
-2024-12-09T18:59 - INFO - cli.py c loaded successfully.
-2024-12-09T18:59 - INFO - cli.py cz loaded successfully.
-2024-12-09T18:59 - INFO - cli.py cz loaded successfully.
-2024-12-09T18:59 - INFO - cli.py f loaded successfully.
-2024-12-09T18:59 - INFO - cli.py f loaded successfully.
-2024-12-09T18:59 - INFO - cli.py f loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py c loaded successfully.
-2024-12-09T18:59 - INFO - cli.py c loaded successfully.
-2024-12-09T18:59 - INFO - cli.py cz loaded successfully.
-2024-12-09T18:59 - INFO - cli.py cz loaded successfully.
-2024-12-09T18:59 - INFO - cli.py f loaded successfully.
-2024-12-09T18:59 - INFO - cli.py f loaded successfully.
-2024-12-09T18:59 - INFO - cli.py f loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo loaded successfully.
-2024-12-09T18:59 - INFO - cli.py bujo
-2024-12-09T18:59 - INFO - cli.py bujo
-2024-12-09T18:59 - INFO - cli.py bujo bujo
-2024-12-09T18:59 - INFO - cli.py bujo bujo
-2024-12-09T18:59 - INFO - Loading command: bujo
-2024-12-09T18:59 - INFO - Loading command: bujo
+2024-12-19T14:10 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:10 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:10 - INFO - cli.py cz
+2024-12-19T14:10 - INFO - cli.py cz
+2024-12-19T14:10 - INFO - Loading command: cz
+2024-12-19T14:10 - INFO - Loading command: cz
+2024-12-19T14:10 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:10 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:10 - INFO - cli.py c loaded successfully.
+2024-12-19T14:10 - INFO - cli.py c loaded successfully.
+2024-12-19T14:10 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:10 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:10 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:10 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:10 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:10 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:10 - INFO - cli.py bujo
+2024-12-19T14:10 - INFO - cli.py bujo
+2024-12-19T14:10 - INFO - Loading command: bujo
+2024-12-19T14:10 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - cli.py bujo bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:11 - INFO - Loading command: bujo
+2024-12-19T14:12 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:12 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:12 - INFO - cli.py c loaded successfully.
+2024-12-19T14:12 - INFO - cli.py c loaded successfully.
+2024-12-19T14:12 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:12 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:12 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:12 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:12 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:12 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:12 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:12 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:12 - INFO - cli.py c loaded successfully.
+2024-12-19T14:12 - INFO - cli.py c loaded successfully.
+2024-12-19T14:12 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:12 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:12 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:12 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:13 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:13 - INFO - cli.py bujo loaded successfully.
+2024-12-19T14:13 - INFO - cli.py c loaded successfully.
+2024-12-19T14:13 - INFO - cli.py c loaded successfully.
+2024-12-19T14:13 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:13 - INFO - cli.py cz loaded successfully.
+2024-12-19T14:13 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:13 - ERROR - Error loading cli.py f: expected str, bytes or os.PathLike object, not int
+2024-12-19T14:13 - INFO - cli.py c loaded successfully.
+2024-12-19T14:13 - INFO - cli.py c loaded successfully.
+2024-12-19T14:13 - INFO - cli.py c
+2024-12-19T14:13 - INFO - cli.py c
+2024-12-19T14:13 - INFO - Loading command: c
+2024-12-19T14:13 - INFO - Loading command: c

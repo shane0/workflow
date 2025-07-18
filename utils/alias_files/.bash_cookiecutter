@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+echo "loading utils/alias_files/.bash_bujo"
+alias rd="vim ./readme.md"
+alias cl="vim ./changelog.md"
+alias jf='mkdir "$(date +%F)" && cd "$(date +%F)"'
+alias ft='vim ./future.md'
+alias in='vim ./index.md'
+alias fj='vim ./"$(date +%F)".md'
+alias bj='cd ./bujo && fj || echo "there is no bujo folder"'
+alias bujo='cd ./bujo && fj || mkdir bujo && cd ./bujo && vim ./"$(date +%F)".md'
+
+remaining_weeks() {
+    local current_week=$(date +%U | sed 's/^0*//')
+    local remaining=$((52 - current_week))
+    local total_weeks=52
+    
+    # Calculate percentage (avoiding potential floating-point division issues)
+    local percentage=$(( 100 * remaining / total_weeks ))
+    
+    # Display both remaining weeks and percentage
+    echo "There are $remaining weeks remaining in 2024 (approximately $percentage%)."
+}
+
+alias week='echo "Week  $(( $(date +%U) + 1 )) of 52, $(remaining_weeks) weeks remaining in $(date +%Y)"'
+
+# remaining_weeks() {
+#   local current_week=$(date +%U | sed 's/^0*//')
+#   local remaining=$((52 - current_week))
+#   local total_weeks=52
+
+#   # Calculate percentage (avoiding potential floating-point division issues)
+#   local percentage=$(( 100 * remaining / total_weeks ))
+
+#   # Display both remaining weeks and percentage
+#   echo "There are $remaining weeks remaining in 2024 (approximately $percentage%)."
+# }
+
+# alias week='echo "Week  $(( $(date +%U) + 1 )) of 52, $(remaining_weeks) weeks remaining in $(date +%Y)"'

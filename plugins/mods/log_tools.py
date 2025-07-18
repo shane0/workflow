@@ -11,10 +11,10 @@ if not os.path.exists(log_dir):
     os.makedirs(log_dir)
 
 # Path to the log file
-log_file = os.path.join(log_dir, 'cli_logs.csv')
+# log_file = os.path.join(log_dir, 'cli_logs.csv')
 
 # Set up logging
-def setup_logger(level=logging.DEBUG):
+def setup_logger(log_file, level=logging.DEBUG):
     """
     Set up a logger that logs to a CSV file.
     Uses the module's name dynamically for the logger name.
@@ -43,7 +43,7 @@ def setup_logger(level=logging.DEBUG):
     return logger
 
 # Log to CSV function (write directly to CSV format)
-def log_to_csv(level, module, message):
+def log_to_csv(log_file, level, module, message):
     with open(log_file, 'a', newline='') as csvfile:
         writer = csv.writer(csvfile)
         timestamp = datetime.now().strftime('%Y-%m-%dT%H:%M')

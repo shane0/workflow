@@ -1,0 +1,8 @@
+Timestamp ,Event                      ,Details
+22:45     ,timer started              ,Timer 'log timer' started at 2024-12-19 22:45
+22:45     ,app initialized            ,successfully
+22:45     ,reloading canibulators     ,the motor is running
+22:45     ,shutting down canibulators ,the motor is shut down
+22:45     ,idle for two seconds       ,2 second pause
+22:45     ,timer stopped              ,Timer 'log timer' stopped at 2024-12-19 22:45
+22:45     ,timer elapsed time         ,Elapsed time for 'log timer': 0h 0m 2s

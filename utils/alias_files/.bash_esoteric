@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "loading utils/alias_files/.bash_esoteric"
+alias vvv='set -o vi'
+alias kkd='cp -r /Users/shanenull/esoteric/ .'

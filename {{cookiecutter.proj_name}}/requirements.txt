@@ -1,0 +1,16 @@
+# glightbox
+behave
+click
+commitizen
+cookiecutter
+Flask
+mike
+mkdocs
+mkdocs-git-revision-date-localized-plugin
+mkdocs-glightbox
+mkdocs-material
+numpy
+pandas
+pyperclip
+selenium
+sqlalchemy

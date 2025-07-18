@@ -1,12 +1,13 @@
 ---
 tags:
-  - maze 
-  - troubleshooting 
+  - complexity
+  - maze
+  - troubleshooting
 ---
-# maze 
+# maze
 
 - if you find yourself donw a rabbit hole or in the weeds start here
-- mazes can be intentional or unintentional 
+- mazes can be intentional or unintentional
 - there are algorithms for following mazes that remove stress & confusion
 - mazes can be dynamic meaning the paths dead ends or exits move around
 - a maze has an exit and if there is no exit then it is a trap
@@ -17,19 +18,19 @@ tags:
 ## breadcrumbs
 
 - you can mark paths visited or unvisited
-- you can mark forks visited or univsited 
-- you can mark visited forks exit or dead end or detour 
+- you can mark forks visited or univsited
+- you can mark visited forks exit or dead end or detour
 - a complete breadcrumb takes someone else directly to the exit using the shortest path
 
 ## follow one wall method
 
 - follow one wall to its end it leads to one of three things: the escape, a dead end, or was a detour back to the path you were on
 
-## forks 
+## forks
 
 - if a path forks and you have vision follow the shortest fork first
 
-## unintentional mazes 
+## unintentional mazes
 
 <iframe width="1159" height="652" src="https://www.youtube.com/embed/lKXe3HUG2l4" title="&quot;The Mess We&#39;re In&quot; by Joe Armstrong" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -40,38 +41,38 @@ tags:
 **Note:** The "best" algorithm often depends on the specific maze and desired outcome. Here are seven popular algorithms commonly used for maze solving:
 
 1. **Depth-First Search (DFS):**
-   * Traverses a graph or tree by going as deep as possible along each branch before backtracking.
-   * Can be efficient for mazes with relatively few dead ends.
+   - Traverses a graph or tree by going as deep as possible along each branch before backtracking.
+   - Can be efficient for mazes with relatively few dead ends.
 
 2. **Breadth-First Search (BFS):**
-   * Explores all nodes at a given depth before moving to the next depth level.
-   * Often used to find the shortest path in a maze.
+   - Explores all nodes at a given depth before moving to the next depth level.
+   - Often used to find the shortest path in a maze.
 
 3. **Dijkstra's Algorithm:**
-   * Finds the shortest path between two nodes in a graph with weighted edges (e.g., representing distances or costs).
-   * Useful for mazes where different paths have varying lengths or difficulties.
+   - Finds the shortest path between two nodes in a graph with weighted edges (e.g., representing distances or costs).
+   - Useful for mazes where different paths have varying lengths or difficulties.
 
 4. **A* Search:**
-   * A more efficient version of Dijkstra's algorithm that uses a heuristic function to estimate the distance to the goal.
-   * Often used for mazes where finding the shortest path is important.
+   - A more efficient version of Dijkstra's algorithm that uses a heuristic function to estimate the distance to the goal.
+   - Often used for mazes where finding the shortest path is important.
 
 5. **Bidirectional Search:**
-   * Searches from both the start and goal nodes simultaneously, often leading to faster solutions.
-   * Useful for mazes where the goal is known in advance.
+   - Searches from both the start and goal nodes simultaneously, often leading to faster solutions.
+   - Useful for mazes where the goal is known in advance.
 
 6. **Iterative Deepening Depth-First Search:**
-   * A variation of DFS that avoids exploring paths that are too long.
-   * Can be useful for mazes with large search spaces.
+   - A variation of DFS that avoids exploring paths that are too long.
+   - Can be useful for mazes with large search spaces.
 
 7. **Wall-Following Algorithms:**
-   * Follow the wall of the maze to find a path.
-   * Simple but can be inefficient for complex mazes.
+   - Follow the wall of the maze to find a path.
+   - Simple but can be inefficient for complex mazes.
 
 These are just a few of the many maze-solving algorithms available. The best choice for a particular maze depends on factors such as the maze's size, complexity, and the desired solution properties.
 
 ## a python code example
 
-- you can run this online at <https://colab.research.google.com/
+- you can run this online at <<https://colab.research.google.com/>
 
 ```python
 # Define a simple maze

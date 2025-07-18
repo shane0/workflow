@@ -30,9 +30,9 @@ YEAR = datetime.date.today().strftime("%Y")
 
 
 # Set up the logger
-from plugins.mods.log_tools import setup_logger
+# from plugins.mods.log_tools import setup_logger
 # logger = setup_logger('cli_logger', logging.DEBUG)
-logger = setup_logger(logging.DEBUG)
+# logger = setup_logger(logging.DEBUG)
 
 
 # logger = setup_logger('cli_logger', logging.DEBUG)
@@ -84,18 +84,25 @@ class PluginCLI(click.MultiCommand):
             with open(fn) as f:
                 code = compile(f.read(), fn, "exec")
                 eval(code, ns, ns)
-            logger.info(f"cli.py {name} loaded successfully.")  # Log successful command loading
+            # logger.info(f"cli.py {name} loaded successfully.")  # Log successful command loading
+            # click.echo(f"cli.py {name} loaded successfully.")  # Log successful command loading
+            pass
         except Exception as e:
-            logger.error(f"Error loading cli.py {name}: {e}")
+            # logger.error(f"Error loading cli.py {name}: {e}")
+            # click.echo(f"Error loading cli.py {name}: {e}")
+            pass
         
         # Return the dynamically loaded command
         command = ns.get("cli")
         if command:
             if len(sys.argv) > 1:
-                logger.info(f"cli.py {sys.argv[1]}")
+                pass
+                # logger.info(f"cli.py {sys.argv[1]}")
+                # click.echo(f"cli.py {sys.argv[1]}")
                 if len(sys.argv) > 2:
-                    logger.info(f"cli.py {sys.argv[1]} {sys.argv[1]}")
-                logger.info(f"Loading command: {name}")  # Log the command being loaded
+                    pass
+                    # click.echo(f"cli.py {sys.argv[1]} {sys.argv[1]}")
+                # click.echo(f"Loading command: {name}")  # Log the command being loaded
             # Access before_invoke directly
             # logger.info(f"cli.py '{ctx.command.name}' executed with arguments: {ctx.args}")
             return command
@@ -136,7 +143,7 @@ def before_invoke(self, ctx):
 
 @click.command(cls=PluginCLI)
 def cli():
-    """2022 Shane Null Workflows"""
+    """command line toolbox"""
     pass
 
 if __name__ == "__main__":

@@ -19,7 +19,7 @@ import click
 import os
 import sys
 import inspect
-import plugins.mods.cucumber_tools as cucumber_tools
+import plugins.cucumber.cucumber_tools as cucumber_tools
 
 # import glob
 # import datetime
@@ -61,7 +61,7 @@ def p():
     folder_choice = 'features/' 
     selected_tests = cucumber_tools.list_files_with_extension(f'{folder_choice}','.feature')
     selected_test = cucumber_tools.choose_from_list(selected_tests)
-    test_command = f'behave features/{folder_choice}/{selected_test}'
+    test_command = f'behave {folder_choice}/{selected_test}'
     click.echo(f'{test_command}')
     os.system(test_command)
     selected_test_file  = f'{folder_choice}/{selected_test}'

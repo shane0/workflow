@@ -1,5 +1,6 @@
 # computations
 
+- mkdocs supports rendering computations if you want to get that nerdy :)
 - get nerdy and show computations
 
 $$

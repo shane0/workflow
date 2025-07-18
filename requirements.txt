@@ -1,12 +1,16 @@
+# glightbox
 behave
-cookiecutter
-commitizen
 click
-pyperclip
+commitizen
+cookiecutter
+Flask
 mike
 mkdocs
-mkdocs-material
 mkdocs-git-revision-date-localized-plugin
 mkdocs-glightbox
+mkdocs-material
+numpy
+pandas
+pyperclip
 selenium
-# glightbox
+sqlalchemy

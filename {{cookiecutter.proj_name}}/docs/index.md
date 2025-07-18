@@ -1,6 +1,26 @@
 
-## {{ cookiecutter.proj_name }}
+## workflow
 
-[workflow](workflow.md){ .md-button }
+- Assign RCA
+- Select Solutions
+- Approve Solutions
+- Submit Report
+- Approve Report
+- Finalize RCA
+- Complete Solutions
+- Validate Solutions
+- Close RCA
 
-[TAGS]
+## toolbox
+
+- problem statement
+- timeline
+- fishbone
+- cause effect chart
+- solutions
+- tasks
+- notes
+- team
+- evidence & attachments
+
+[[ TAGS ]]

@@ -16,15 +16,21 @@ from cli import (
 import click
 
 import pyperclip
+
 # import subprocess
 import os
 import sys
 import inspect
+from datetime import datetime
+import plugins.jargon.jargon as jargon
 
 # import glob
-from datetime import datetime
+# Set up the logger
+# from plugins.mods.log_tools import setup_logger
+# logger = setup_logger(logging.DEBUG)
 
-# using inspect to import globals from parent dir module
+# by adding the parent directory to sys.path, python can find and import modules from that directory and its subdirectories.
+# this technique allows you to use relative imports (e.g., from ..module import class) to access modules within the project structure.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
@@ -42,6 +48,13 @@ def cli(args=None):
 def edit():
     """edit plugin"""
     click.edit(filename=inspect.getfile(inspect.currentframe()), editor="code")
+
+
+@cli.command()
+def v():
+    """vim online"""
+    url = "https://shanenull.com/workflow/html/bootstrap.html"
+    click.launch(url)
 
 
 @cli.command()
@@ -74,11 +87,11 @@ def f(date):
         click.echo(f"Invalid date format: {e}")
 
 
-@cli.command()
-def m():
-    """start mkdocs server"""
-    click.launch("http://localhost:8001")
-    os.system("mkdocs serve")
+# @cli.command()
+# def m():
+#     """start mkdocs server"""
+#     click.launch("http://localhost:8001")
+#     os.system("mkdocs serve")
 
 
 @cli.command()
@@ -136,8 +149,9 @@ def month(date):
     click.echo(MONTHFILE)
     click.edit(filename=MONTHFILE, editor="code")
     dmy = date.strftime("%m %B %Y")
-    click.echo(f'# {dmy}')
-    pyperclip.copy(f'# {dmy}')
+    click.echo(f"# {dmy}")
+    pyperclip.copy(f"# {dmy}")
+    os.system("cal")
 
 
 YEARFILE = BUJO_FOLDER + "/" + YEAR + ".md"
@@ -366,3 +380,9 @@ def dayfolder():
 #    except OSError as err:
 #        click.echo("OS error: {0}".format(err))
 
+
+@cli.command()
+def zp():
+    """cleanup pycache"""
+    cmd = 'find . -type d -name "__pycache__" -exec rm -r {} +'
+    os.system(cmd)

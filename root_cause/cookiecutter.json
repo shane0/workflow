@@ -1,0 +1,5 @@
+{
+    "proj_name": "project name",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0"
+}

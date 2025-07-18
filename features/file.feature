@@ -1,6 +1,6 @@
 Feature: Verify log files
     As a developer
-    I want to ensure the logs contain specific content
+    I want to ensure the logs/ contain specific content
     So that I can confirm the application is running correctly
 
     Scenario Outline: Check log file <filename> for <content>

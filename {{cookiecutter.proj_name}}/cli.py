@@ -1,13 +1,12 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""Console script for sncli."""
-import click
-import os
-import inspect
 import sys
-import shutil
+import click
 import datetime
-
+import os
+import importlib.util
+# sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# Add the project root to sys.path (so it can find the src module)
+PLUGINS_DIR = os.path.join(os.path.dirname(__file__), "plugins")
 plugin_folder = os.path.join(os.path.dirname(__file__), "plugins")
 homedir = os.path.expanduser("~")
 
@@ -23,32 +22,33 @@ MONTHFILE = BUJO_FOLDER + "/" +  MONTH + ".md"
 YEAR = datetime.date.today().strftime("%Y")
 
 
-class PluginCLI(click.MultiCommand):
+# class PluginCLI(click.MultiCommand):
+class PluginCLI(click.Group):
     def list_commands(self, ctx):
         """Dynamically get the list of commands."""
         rv = []
-        for filename in os.listdir(plugin_folder):
+        for filename in os.listdir(PLUGINS_DIR):
             if filename.endswith(".py") and not filename.startswith("__init__"):
-                rv.append(filename[:-3])
+                rv.append(filename[:-3])  # Remove '.py' extension
         rv.sort()
         return rv
 
     def get_command(self, ctx, name):
-        """Dynamically get the command."""
+        """Dynamically get the command from a plugin."""
         ns = {}
-        fn = os.path.join(plugin_folder, name + ".py")
+        fn = os.path.join(PLUGINS_DIR, name + ".py")
         with open(fn) as f:
             code = compile(f.read(), fn, "exec")
-            eval(code, ns, ns)
-        return ns["cli"]
+            eval(code, ns, ns)  # Run the plugin code in its own namespace
+        return ns.get("cli")  # Return the cli function from the plugin
 
 
 @click.command(cls=PluginCLI)
 def cli():
-    """2022 Shane Null Workflows"""
-    #    click.echo(dir(PluginCLI))
+    """Shane Null Workflows"""
     pass
 
 
 if __name__ == "__main__":
     cli()
+

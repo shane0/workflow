@@ -1,36 +1,45 @@
 #!/usr/bin/env bash
+echo "loading utils/alias_files/.bash_general"
 set -o vi
-
-# manage aliases
-alias ea='vim ~/.bash_aliases'
-alias sa='source ~/.bashrc'
-
-# macos
 alias c='clear'
-alias rd="vim ./readme.md"
-alias cl="vim ./changelog.md"
-alias jf='mkdir "$(date +%F)" && cd "$(date +%F)"'
-alias ft='vim ./future.md'
-alias in='vim ./index.md'
-alias fj='vim ./"$(date +%F)".md'
-alias bj='cd ./bujo && fj || echo "there is no bujo folder"'
-alias bujo='cd ./bujo && fj || mkdir bujo && cd ./bujo && vim ./"$(date +%F)".md'
+alias ea='vim ~/.bash_profile'
+alias sa='source ~/.bash_profile'
+alias sa='vim ~/.bash_profile'
+alias vvv='set -o vi'
+alias vvv='set -o vi'
 
-# git
-alias grem='git ls-remote --heads | cut -d '/' -f 3'
+# /Users/shanenull/.cookiecutters/workflow/utils/alias_files/.bash_general
+# manage aliases
+# /Users/shanenull/.bash_profile
+# alias ea='vim ~/.bash_aliases'
+# macos
+# _profile'
+
+alias lsd='ls -d */'
+alias ls='ls -F'
+alias ll='ls -lh'
+alias lt='ls --human-readable --size -1 -S --classify'
+# where you left off
+alias left='ls -t -1'
+alias leftd='ls -t -1 docs/'
+
+# show thsi folder
+alias ffd='echo "${PWD##*/}"'
+
+
+# echo "alias ll='ls -la'" >> ~/.bash_aliases
 
 
 
 
 
-# todocli app
-alias t='clear && ./todocli/todo.sh'
-alias d='clear && t listpri a'
-alias snooze='clear && t listpri'
-alias done='clear && cat ./todocli/done.txt'
-alias tedit='vim ./todocli/todo.txt'
-alias tall='clear && find . -name "todo.txt" | xargs grep "+"'
-alias tpri='clear && find . -name "todo.txt" | xargs grep "(A"'
-alias tprib='clear && find . -name "todo.txt" | xargs grep "(B"'
-alias tpric='clear && find . -name "todo.txt" | xargs grep "(C"'
-alias thelp='clear && ./todocli/todo.sh shorthelp'
+# /Users/shanenull/.cookiecutters/workflow/utils/alias_files/.bash_general
+# manage aliases
+# /Users/shanenull/.bash_profile
+# alias ea='vim ~/.bash_aliases'
+# macos
+
+
+
+
+

@@ -1,3 +1,12 @@
+# logger
+
+- when you run cli
+- it logs the command here
+- plugins/logs/cli_logs.csv
+- [ ] adding the arguments is not working yet but the plan is future plugins/modules will have individual logging as needed 
+
+## instructions
+
 Here's how you can add logging to your `bujo.py` module to use the same log file and log the arguments passed to its commands:
 
 **1. Import necessary libraries:**

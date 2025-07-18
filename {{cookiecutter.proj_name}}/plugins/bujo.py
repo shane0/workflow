@@ -20,6 +20,7 @@ import os
 import sys
 import inspect
 
+YEARFILE = BUJO_FOLDER + "/" + YEAR + ".md"
 # import glob
 # import datetime
 
@@ -34,6 +35,7 @@ sys.path.insert(0, parent_dir)
 def cli(args=None):
     """\b
     bullet journaling & todocli
+    joy || change || tolerate && guard the secret city
     """
     return 0
 
@@ -47,7 +49,7 @@ def edit():
 @cli.command()
 def m():
     """start mkdocs server"""
-    click.launch('http://localhost:8001')
+    click.launch('http://localhost:3333')
     os.system('mkdocs serve')
 
 
@@ -58,15 +60,8 @@ def s():
 
 
 @cli.command()
-def m():
-    """mkdocs serve"""
-    click.launch("http://localhost:8002/")
-    os.system("mkdocs serve")
-
-
-@cli.command()
 def s():
-    """start dev server"""
+    """start dev node server"""
     os.system("npm start")
 
 
@@ -90,7 +85,7 @@ def index():
 
 @cli.command()
 def future():
-    """bujo index file"""
+    """future file"""
     click.edit(filename="docs/bujo/future.md", editor="code")
 
 
@@ -101,12 +96,11 @@ def month():
     click.edit(filename=MONTHFILE, editor="code")
 
 
-YEARFILE = BUJO_FOLDER + "/" + YEAR + ".md"
 
 
 @cli.command()
 def year():
-    """week - cps state rollback test"""
+    """week - """
     click.echo(YEARFILE)
     click.edit(filename=YEARFILE, editor="code")
     # click.edit(filename=YEARFILE)
@@ -114,14 +108,14 @@ def year():
 
 @cli.command()
 def week():
-    """week - cps state rollback test"""
+    """week - """
     click.echo(WEEKFILE)
     click.edit(filename=WEEKFILE, editor="code")
 
 
 @cli.command()
 def day():
-    """week - cps state rollback test"""
+    """week """
     click.echo(DAYFILE)
     click.edit(filename=DAYFILE, editor="code")
 

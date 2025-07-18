@@ -1,4 +1,20 @@
 #!/usr/bin/env bash
-alias grem='git ls-remote --heads | cut -d '/' -f 3'
-alias glp='git log --graph --pretty=oneline --abbrev-commit'
-alias gs='git status'
+echo "loading utils/alias_files/.bash_git"
+set -o vi
+alias c='clear'
+alias ea='vim ~/.bash_profile'
+alias sa='source ~/.bash_profile'
+alias sa='vim ~/.bash_profile'
+alias vvv='set -o vi'
+alias showremote='echo "https://github.com/" $(head -1 <(git remote -v | cut -d "\\:" -f2 | cut -d "." -f1 | tr -s " " "\0"))'
+
+# /Users/shanenull/.cookiecutters/workflow/utils/alias_files/.bash_general
+# manage aliases
+# /Users/shanenull/.bash_profile
+# alias ea='vim ~/.bash_aliases'
+# macos
+
+
+
+
+
